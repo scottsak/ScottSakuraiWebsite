@@ -19,20 +19,6 @@ app.get("/", function(req, res){
     res.render("home",{logoGlitches:logoGlitches});
 
 });
-var i = 0;
-const message="hello, my name is scott."
-
-
-function typeWriter(){
-  if (i < message.length) {
-    document.getElementById("type").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, 50);
-  }
-}
-$(document).ready( function () {
-typeWriter();
-});
 
 
 app.listen(3000, function() {
