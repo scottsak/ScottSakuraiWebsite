@@ -26,6 +26,7 @@ h1 {
 	padding-bottom: 60px;
 }
 
+
 .footer {
 	text-align: center;
 	bottom: 0;
@@ -44,9 +45,14 @@ h1 {
   padding-top: 10em;
   padding-left: 10em;
 }
+.welcomeMessage{
+  padding-bottom: 12em;
+  width: 60em;
+}
 
 .typing-container {
       display: flex;
+      padding-top: 5em;
 }
 
 @keyframes blink {
@@ -66,5 +72,6 @@ h1 {
 }
 
 .logoTop{
-  border-radius: 50%
+  border-radius: 50%;
+
 }
