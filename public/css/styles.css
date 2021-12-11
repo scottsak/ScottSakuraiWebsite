@@ -31,9 +31,13 @@ h1 {
 	padding-bottom: 60px;
 }
 
-.about{
+#aboutImage{
   float:left;
+}
 
+#aboutParagraph{
+  padding-left: 23em;
+  width: 50em;
 }
 
 a {
