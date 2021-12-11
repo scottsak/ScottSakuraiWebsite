@@ -11,19 +11,34 @@ h1 {
 }
 
 .emphasis {
-  color: #42DB63;
+  color: #68C1D0;
 }
 
 .messageMe {
   background-color: transparent;
   border-radius: 4px;
-  color: #42DB63;
-  border: 2px solid #42DB63;
+  color: #68C1D0;
+  border: 2px solid #68C1D0;
   padding: 15px 15px;
+}
+
+#welcome {
+  padding-top: 25em;
+  width: 60em;
 }
 
 .footer-padding {
 	padding-bottom: 60px;
+}
+
+.about{
+  float:left;
+
+}
+
+a {
+    text-decoration: none!important;
+    color: #68C1D0!important;
 }
 
 
@@ -42,12 +57,19 @@ h1 {
 }
 
 .section {
-  padding-top: 10em;
+  padding-top: 20em;
   padding-left: 10em;
 }
-.welcomeMessage{
-  padding-bottom: 12em;
-  width: 60em;
+
+.side-navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+  padding-right: 5%;
+  bottom: 10%;
+  background-color: transparent;
 }
 
 .typing-container {
