@@ -10,8 +10,31 @@ h1 {
   font-size: 60px;
 }
 
+.section-Header {
+  padding-bottom: 1em;
+}
+
+.icon-btn:hover{
+  width: 40px;
+}
+
+.icon-btn {
+  padding: 10px 5px;
+  width: 35px;
+}
+
+.myPicture {
+  border-radius: 50px;
+}
+
 .emphasis {
   color: #68C1D0;
+}
+
+.icons{
+  padding-top: 10px;
+  flex-direction: row;
+  display: flex;
 }
 
 .messageMe {
@@ -74,6 +97,7 @@ a {
   padding-right: 5%;
   top: 10%;
   background-color: transparent;
+  font-size: 20px;
 }
 
 .typing-container {
