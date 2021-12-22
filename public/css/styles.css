@@ -139,6 +139,11 @@ a {
   width: 60em;
 }
 
+/* about me */
+#aboutParagraph{
+  padding-top: 30px;
+}
+
 /* projectsSection */
 .projectsHeader{
   text-align: left;
