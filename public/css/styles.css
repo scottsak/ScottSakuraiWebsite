@@ -154,8 +154,12 @@ a {
   padding-bottom: 400px;
 }
 
+.projectBox:hover {
+  background-color: #02022b;
+}
 .projectBox {
-  position:absolute;
+  /* position:absolute; */
+  margin: 10px 20px;
   width: 400px;
   height: 300px;
   border-radius: 25px;
