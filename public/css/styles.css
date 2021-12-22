@@ -10,16 +10,22 @@ h1 {
   font-size: 60px;
 }
 
-.projectBox {
-  width: 400px;
-  height: 300px;
-  text-align: center;
-  border-radius: 25px;
-  border: 2px solid #68C1D0;
+a:hover{
+  color: #e0eef3;
+}
+
+a {
+    text-decoration: none !important;
+    color: #68C1D0;
 }
 
 .section-Header {
   padding-bottom: 1em;
+}
+
+/*icon styles*/
+.icons svg path{
+  fill: #FFFFFF !important;
 }
 
 .icon-btn:hover{
@@ -31,6 +37,12 @@ h1 {
   width: 35px;
 }
 
+.icons{
+  padding-top: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
 .myPicture {
   border-radius: 50px;
 }
@@ -39,24 +51,7 @@ h1 {
   color: #68C1D0;
 }
 
-.icons{
-  padding-top: 10px;
-  flex-direction: row;
-  display: flex;
-}
 
-.messageMe {
-  background-color: transparent;
-  border-radius: 4px;
-  color: #68C1D0;
-  border: 2px solid #68C1D0;
-  padding: 15px 15px;
-}
-
-#welcome {
-  padding-top: 25em;
-  width: 60em;
-}
 
 .footer-padding {
 	padding-bottom: 60px;
@@ -69,11 +64,6 @@ h1 {
 #aboutParagraph{
   padding-left: 23em;
   width: 50em;
-}
-
-a {
-    text-decoration: none!important;
-    color: #68C1D0!important;
 }
 
 
@@ -96,6 +86,8 @@ a {
   padding-left: 10em;
 }
 
+
+/*side navbar */
 .side-navbar{
   display: flex;
   flex-direction: column;
@@ -108,6 +100,7 @@ a {
   font-size: 20px;
 }
 
+/*welcome logo*/
 .typing-container {
       display: flex;
       padding-top: 5em;
@@ -129,7 +122,42 @@ a {
       margin-left: 8px;
 }
 
-.logoTop{
-  border-radius: 50%;
+.messageMe {
+  background-color: transparent;
+  border-radius: 4px;
+  color: #68C1D0;
+  border: 2px solid #68C1D0;
+  padding: 15px 15px;
+}
 
+.messageMe:hover{
+  background-color: #02022b;
+}
+
+#welcome {
+  padding-top: 25em;
+  width: 60em;
+}
+
+/* projectsSection */
+.projectsHeader{
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.projectsAbout{
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.projects{
+  padding-bottom: 400px;
+}
+
+.projectBox {
+  position:absolute;
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  border: 2px solid #68C1D0;
 }
