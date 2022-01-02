@@ -1,0 +1,172 @@
+body {
+  background: #000021;
+  font-family: 'NTR', sans-serif;
+  color: #C5D2E0;
+
+}
+
+h1 {
+  color: #e0eef3;
+  font-size: 60px;
+}
+
+a:hover{
+  color: #e0eef3;
+}
+
+a {
+    text-decoration: none !important;
+    color: #68C1D0;
+}
+
+.section-Header {
+  padding-bottom: 1em;
+}
+
+/*icon styles*/
+.icons svg path{
+  fill: #FFFFFF !important;
+}
+
+.icon-btn:hover{
+  width: 40px;
+}
+
+.icon-btn {
+  padding: 10px 5px;
+  width: 35px;
+}
+
+.icons{
+  padding-top: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+.myPicture {
+  border-radius: 50px;
+}
+
+.emphasis {
+  color: #68C1D0;
+}
+
+
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+#aboutImage{
+  float:left;
+}
+
+#aboutParagraph{
+  padding-left: 23em;
+  width: 50em;
+}
+
+
+.footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+  padding-top: 20px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #C5D2E0;
+}
+
+.section {
+  padding-top: 20em;
+  padding-left: 10em;
+}
+
+
+/*side navbar */
+.side-navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+  padding-right: 5%;
+  top: 10%;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+/*welcome logo*/
+.typing-container {
+      display: flex;
+      padding-top: 5em;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+ .input-cursor {
+      display: inline-block;
+      animation: blink .6s linear infinite alternate;
+      width: 2px;
+      height: 60px;
+      background-color: white;
+      margin-left: 8px;
+}
+
+.messageMe {
+  background-color: transparent;
+  border-radius: 4px;
+  color: #68C1D0;
+  border: 2px solid #68C1D0;
+  padding: 15px 15px;
+}
+
+.messageMe:hover{
+  background-color: #02022b;
+}
+
+#welcome {
+  padding-top: 25em;
+  width: 60em;
+}
+
+/* about me */
+#aboutParagraph{
+  padding-top: 30px;
+}
+
+/* projectsSection */
+.projectsHeader{
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.projectsAbout{
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.projects{
+  padding-bottom: 400px;
+}
+
+.projectBox:hover {
+  background-color: #02022b;
+}
+.projectBox {
+  /* position:absolute; */
+  margin: 10px 20px;
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  border: 2px solid #68C1D0;
+}
