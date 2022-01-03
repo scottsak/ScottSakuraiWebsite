@@ -5,6 +5,10 @@ body {
 
 }
 
+#maintenance{
+  text-align: center;
+}
+
 h1 {
   color: #e0eef3;
   font-size: 60px;
