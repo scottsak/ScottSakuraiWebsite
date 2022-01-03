@@ -154,7 +154,6 @@ a {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 40px;
 }
 
 .projectsHeader{
