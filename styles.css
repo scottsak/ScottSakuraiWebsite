@@ -154,6 +154,7 @@ a {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  width: 80%;
 }
 
 .projectsHeader{
@@ -175,16 +176,30 @@ a {
 }
 .projectBox {
   /* position:absolute; */
-  margin: 10px 20px;
-  width: 25%;
-  height: 300px;
   border-radius: 25px;
+  padding: 10px;
   border: 2px solid #68C1D0;
+  margin: 5px;
 }
 
 /*media screen for later*/
 @media only screen and (max-width: 1000px) {
   .side-navbar{
     display: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 2;
+  }
+
+  .projectBox {
+    /* position:absolute; */
+    margin: 10px 20px;
+    width: 25%;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px solid #68C1D0;
   }
 }
