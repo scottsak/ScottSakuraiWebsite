@@ -5,6 +5,15 @@ body {
 
 }
 
+.section-Header {
+  padding-bottom: 1em;
+}
+
+.section {
+  padding-top: 20em;
+  padding-left: 10em;
+}
+
 #maintenance{
   text-align: center;
 }
@@ -23,11 +32,12 @@ a {
     color: #68C1D0;
 }
 
-.section-Header {
-  padding-bottom: 1em;
+.emphasis {
+  color: #68C1D0;
 }
 
 /*icon styles*/
+/* ------------------------------------------------------------------- */
 .icons svg path{
   fill: #FFFFFF !important;
 }
@@ -47,51 +57,9 @@ a {
   display: flex;
 }
 
-.myPicture {
-  border-radius: 50px;
-}
-
-.emphasis {
-  color: #68C1D0;
-}
-
-
-
-.footer-padding {
-	padding-bottom: 60px;
-}
-
-#aboutImage{
-  float:left;
-}
-
-#aboutParagraph{
-  padding-left: 23em;
-  width: 50em;
-}
-
-
-.footer {
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 100px;
-  padding-top: 20px;
-}
-
-.footer p {
-	margin-top: 25px;
-	font-size: 12px;
-  color: #C5D2E0;
-}
-
-.section {
-  padding-top: 20em;
-  padding-left: 10em;
-}
-
 
 /*side navbar */
+/* ------------------------------------------------------------------- */
 .side-navbar{
   display: flex;
   flex-direction: column;
@@ -105,6 +73,7 @@ a {
 }
 
 /*welcome logo*/
+/* ------------------------------------------------------------------- */
 .typing-container {
       display: flex;
       padding-top: 5em;
@@ -144,13 +113,29 @@ a {
 }
 
 /* about me */
+/* ------------------------------------------------------------------- */
+#aboutParagraph p{
+  font-size: large;
+}
+
 #aboutParagraph{
-  padding-top: 30px;
+  width: 65%;
+  padding-left: 350px;
+  /* width: 50em; */
+  /* padding-top: 30px; */
+}
+
+#aboutImage{
+  float:left;
 }
 
 
-/* projectsSection */
+.myPicture {
+  border-radius: 50px;
+}
 
+/* projectsSection */
+/* ------------------------------------------------------------------- */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -167,9 +152,9 @@ a {
   text-align: center;
 }
 
-.projects{
+/* .projects{
   padding-bottom: 400px;
-}
+} */
 
 .projectBox:hover {
   background-color: #02022b;
@@ -182,7 +167,30 @@ a {
   margin: 5px;
 }
 
-/*media screen for later*/
+/* footer */
+/* ------------------------------------------------------------------- */
+.footer-padding {
+	padding-bottom: 30px;
+}
+
+
+.footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+  padding-top: 20px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #C5D2E0;
+}
+
+
+/*media screens for later*/
+/* ------------------------------------------------------------------- */
 @media only screen and (max-width: 1300px) {
 
   .grid-container {
@@ -200,7 +208,6 @@ a {
   }
 }
 
-/*media screen for later*/
 @media only screen and (max-width: 1000px) {
   .side-navbar{
     display: none;
