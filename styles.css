@@ -11,7 +11,8 @@ body {
 
 .section {
   padding-top: 20em;
-  padding-left: 10em;
+  padding-left: 100px;
+  padding-right: 15px;
 }
 
 #maintenance{
@@ -119,8 +120,9 @@ a {
 }
 
 #aboutParagraph{
-  width: 65%;
+  width: 80%;
   padding-left: 350px;
+
   /* width: 50em; */
   /* padding-top: 30px; */
 }
@@ -234,14 +236,10 @@ a {
     text-align: center;
   }
 
-  .side-navbar{
-    display: none;
-  }
-
   .grid-container {
     display: grid;
     grid-template-columns: auto;
-    width: 80%;
+    width: 90%;
   }
 
   .section {
@@ -256,5 +254,6 @@ a {
     padding: 10px;
     border: 2px solid #68C1D0;
     margin: 5px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
   }
 }
