@@ -147,11 +147,13 @@ a {
 .projectsHeader{
   text-align: left;
   padding: 10px 10px;
+  color: #C5D2E0;
 }
 
 .projectsAbout{
   padding: 30px 20px;
   text-align: center;
+  color: #C5D2E0;
 }
 
 /* .projects{
