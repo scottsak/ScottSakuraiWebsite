@@ -87,18 +87,18 @@ a {
     100% {opacity: 0;}
   }
 
+  .sentence{
+    font-size: 70px;
+  }
+
  .input-cursor {
       display: inline-block;
       animation: blink .6s linear infinite alternate;
       width: 2px;
-      height: 60px;
+      height: 70px;
+      margin-top: 15px;
       background-color: white;
       margin-left: 8px;
-}
-
-.divider{
-  width: 100px;
-  display: inline-block;
 }
 
 #resumeButton{
@@ -136,11 +136,11 @@ a {
   height: 300px;
 } */
 
-#aboutParagraph p{
+#aboutParagraphContainer p{
   font-size: large;
 }
 
-#aboutParagraph{
+#aboutParagraphContainer{
   width: 70%;
   padding-left: 350px;
 
@@ -366,7 +366,43 @@ a {
 }
 
 /* iPhone Screen */
-@media only screen and (max-width: 988px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+  .sentence{
+    font-size: 90px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+  }
+
+  #welcomeSentence{
+    font-size: 50px;
+    margin-top: 0px;
+    padding-bottom: 20px; 
+  }
+
+  #welcomeParagraph{
+    font-size: 35px; 
+  }
+
+  #resumeButton{
+    float: right;
+    margin-right: 80px;
+    font-size: 30px !important;
+  }
+  
+  #contactMe{
+    float: left;
+    margin-left: 80px;
+    font-size: 30px !important;
+  }
+  
+  p{
+    font-size: 35px;
+  }
 
   .section{
     text-align: center;
@@ -375,6 +411,7 @@ a {
 
   .section-Header{
     text-align: left;
+    font-size: 60px;
   }
 
   .sentence h1{
@@ -383,7 +420,7 @@ a {
 
   body{
     text-align: center;
-    background-color: red;
+    /* background-color: red; */
   }
 
   .typing-container{
@@ -391,14 +428,28 @@ a {
     display: inline-flex;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    width: 90%;
-  }
+
 
   #aboutImage{
     display:none;
+  }
+
+  #aboutParagraphContainer{
+    padding-left: 0px;
+    width: 100%;
+    /* padding-left:10%; */
+  }
+
+  #aboutParagraphContainer p{
+    font-size: 40px;
+    text-align: left;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
   }
 
   .projectBox {
