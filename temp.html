@@ -38,11 +38,13 @@
     </div>
 
     <h2>Welcome to my personal website</h2>
-    <p>I am a software engineer based in Long Beach.
-      I am interested in web design, ethical hacking, and I like to
+    <p>I am a software engineer based in California.
+      I am interested in web development, ethical hacking, and I like to
       dabble in a little Photoshop every here and there.</p>
 
-    <a href="mailto:scott.t.sakurai@gmail.com"><button type="button" class="messageMe">reach out! <img src="icons/mail.svg" alt="mail icon" width="20px"></button></a>
+    <a href="mailto:scott.t.sakurai@gmail.com"><button type="button" id="contactMe" class="messageMeButtons">Contact Me</button></a>
+    <div class = "divider"></div>
+    <a href="mailto:scott.t.sakurai@gmail.com"><button type="button" id="resumeButton" class="messageMeButtons">Resume</button></a>
 
   </div>
 
@@ -62,8 +64,10 @@
     <h2 class="section-Header">/experience</h2>
     <!-- use this for this section
     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs_close -->
+    
     <div class="tab">
       <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+      <div id="tabback"></div>
       <!-- <div class="divider"></div>
       <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
       <div class="divider"></div>

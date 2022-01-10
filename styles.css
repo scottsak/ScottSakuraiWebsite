@@ -96,21 +96,38 @@ a {
       margin-left: 8px;
 }
 
-.messageMe {
+.divider{
+  width: 100px;
+  display: inline-block;
+}
+
+#resumeButton{
+  float: right;
+}
+
+#contactMe{
+  float: left;
+}
+
+.messageMeButtons {
   background-color: transparent;
   border-radius: 4px;
   color: #68C1D0;
   border: 2px solid #68C1D0;
+  margin-top: 50px;
   padding: 15px 15px;
+  width: 200px;
 }
 
-.messageMe:hover{
+.messageMeButtons:hover{
   background-color: #02022b;
+  color: white;
+  border: 2px solid white;
 }
 
 #welcome {
   padding-top: 25em;
-  width: 60em;
+  width: 45%;;
 }
 
 /* about me */
@@ -124,7 +141,7 @@ a {
 }
 
 #aboutParagraph{
-  width: 80%;
+  width: 70%;
   padding-left: 350px;
 
   /* width: 50em; */
@@ -146,7 +163,7 @@ a {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  width:80%;
+  width:40%;
   background-color: inherit;
 }
 
@@ -197,16 +214,25 @@ a {
   width: 150px;
   height: 48px;
   display: inline-block;
+  /* display: none; */
+  /* border: 2px solid white; */
+  border: none;
+  
+  clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+}
+
+#tabback{
+  background-color: white;
+  position: absolute;
+  color: white;
+  width: 153px;
+  height: 49px;
+  display: inline-block;
   border: 2px solid white;
   
   clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
 }
 
-.divider{
-  width:5px;
-  height:auto;
-  display:inline-block;
-}
 
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -224,7 +250,7 @@ a {
   padding: 6px 12px;
   border: 1px solid #ccc;
   /* border-top: none; */
-  width: 80%;
+  width: 45%;
 }
 
 /* Style the close button */
@@ -241,7 +267,7 @@ a {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 80%;
+  width: 70%;
 }
 
 .projectsHeader{
