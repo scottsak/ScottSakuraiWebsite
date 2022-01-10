@@ -209,28 +209,30 @@ a {
 } */
 
 .tab button{
-  background: inherit;
+  /* position: absolute; */
+  background: #000021;
   color: white;
-  width: 150px;
+  width: 200px;
   height: 48px;
+  text-align: left;
   display: inline-block;
   /* display: none; */
   /* border: 2px solid white; */
   border: none;
-  
-  clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 83% 0, 100% 100%, 0 100%);
 }
 
 #tabback{
   background-color: white;
   position: absolute;
   color: white;
-  width: 153px;
-  height: 49px;
+  width: 202px;
+  height: 48px;
+  margin-bottom: 300px;
   display: inline-block;
   border: 2px solid white;
-  
-  clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+
+  clip-path: polygon(0 0, 83% 0, 100% 100%, 0 100%);
 }
 
 
@@ -324,6 +326,10 @@ a {
 /* ------------------------------------------------------------------- */
 @media only screen and (max-width: 1300px) {
 
+  #welcome{
+    width:870px;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -360,9 +366,29 @@ a {
 }
 
 /* iPhone Screen */
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 988px) {
+
+  .section{
+    text-align: center;
+    width: 90%;
+  }
+
+  .section-Header{
+    text-align: left;
+  }
+
+  .sentence h1{
+    text-align: center;
+  }
+
   body{
     text-align: center;
+    background-color: red;
+  }
+
+  .typing-container{
+    text-align: center;
+    display: inline-flex;
   }
 
   .grid-container {
@@ -371,10 +397,8 @@ a {
     width: 90%;
   }
 
-  .section {
-    padding-top: 20em;
-    padding-left: none;
-    text-align: left;
+  #aboutImage{
+    display:none;
   }
 
   .projectBox {

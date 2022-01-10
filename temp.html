@@ -30,11 +30,10 @@
 
 
     <div class="typing-container">
-      <p id="type"></p>
       <span class="sentence">
         <h1>Hello, I am <span class="emphasis">Scott</span></h1>
       </span>
-      <span class="input-cursor"></span>
+      <span class="input-cursor">|</span>
     </div>
 
     <h2>Welcome to my personal website</h2>
@@ -64,34 +63,35 @@
     <h2 class="section-Header">/experience</h2>
     <!-- use this for this section
     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs_close -->
-    
+
     <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
       <div id="tabback"></div>
+      <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">22 West Media</button>
+
       <!-- <div class="divider"></div>
       <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
       <div class="divider"></div>
       <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
     </div>
-    
+
     <div id="London" class="tabcontent">
       <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <h3>London</h3>
       <p>London is the capital city of England.</p>
     </div>
-    
+
     <!-- <div id="Paris" class="tabcontent">
       <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <h3>Paris</h3>
-      <p>Paris is the capital of France.</p> 
+      <p>Paris is the capital of France.</p>
     </div>
-    
+
     <div id="Tokyo" class="tabcontent">
       <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <h3>Tokyo</h3>
       <p>Tokyo is the capital of Japan.</p>
     </div> -->
-    
+
   </div>
 
 
