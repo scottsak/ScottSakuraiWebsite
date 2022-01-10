@@ -330,7 +330,11 @@ a {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-
+  .input-cursor {
+    width: 4px;
+    height: 90px;
+    margin-top: 20px;
+  }
   .sentence{
     font-size: 90px;
     padding-bottom:0px;
