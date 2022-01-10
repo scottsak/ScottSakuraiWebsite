@@ -167,47 +167,6 @@ a {
   background-color: inherit;
 }
 
-/* .tab {
-  width: 150px;
-  height: 100px;
-  margin: 0 0 0 -20px;
-  -webkit-transform: skew(20deg);
-  -moz-transform: skew(20deg);
-  -o-transform: skew(20deg);
-  background: red;
-  overflow: hidden;
-  position: relative;
-} */
-
-/* Style the buttons inside the tab */
-/* .tab button {
-  background-color: inherit;
-  color: white;
-  float: left;
-  border: 2px solid #ccc;
-  width: 100px;
-  height: 50px;
-  transform: skew(20deg);
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-} */
-
-/* .tab button {
-  width: 100px;
-  height: 50px;
-  margin: 0 0 0 -20px;
-  color: white;
-  -webkit-transform: skew(20deg);
-  -moz-transform: skew(20deg);
-  -o-transform: skew(20deg);
-  overflow: hidden;
-  position: relative;
-  border-bottom: none;
-  background-color:inherit;
-} */
-
 .tab button{
   /* position: absolute; */
   background: #000021;
@@ -317,7 +276,7 @@ a {
 
 .footer p {
 	margin-top: 25px;
-	font-size: 12px;
+	font-size: 15px;
   color: #C5D2E0;
 }
 
