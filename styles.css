@@ -24,6 +24,7 @@ h1 {
   font-size: 60px;
 }
 
+
 a:hover{
   color: #e0eef3;
 }
@@ -243,6 +244,10 @@ a {
   color: #C5D2E0;
 }
 
+.projectBox4{
+  display: none;
+}
+
 /* .projects{
   padding-bottom: 400px;
 } */
@@ -292,8 +297,12 @@ a {
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     width: 80%;
+  }
+
+  .projectBox4{
+    display: inline;
   }
 
   .projectBox {
@@ -308,20 +317,6 @@ a {
 @media only screen and (max-width: 1000px) {
   .side-navbar{
     display: none;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 80%;
-  }
-
-  .projectBox {
-    /* position:absolute; */
-    border-radius: 25px;
-    padding: 10px;
-    border: 2px solid #68C1D0;
-    margin: 5px;
   }
 }
 
