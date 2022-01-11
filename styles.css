@@ -127,7 +127,7 @@ a {
 }
 
 #welcome {
-  padding-top: 25em;
+  padding-top: 15em;
   width: 870px;
 }
 
@@ -285,10 +285,10 @@ a {
 }
 
 /* iPhone Screen */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
 
   .input-cursor {
     width: 4px;
@@ -304,11 +304,11 @@ a {
   #welcomeSentence{
     font-size: 50px;
     margin-top: 0px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
   }
 
   #welcomeParagraph{
-    font-size: 35px; 
+    font-size: 35px;
   }
 
   #resumeButton{
@@ -316,13 +316,13 @@ a {
     margin-right: 80px;
     font-size: 30px !important;
   }
-  
+
   #contactMe{
     float: left;
     margin-left: 80px;
     font-size: 30px !important;
   }
-  
+
   p{
     font-size: 35px;
   }
@@ -372,7 +372,7 @@ a {
     font-size: 40px;
     text-align: center;
   }
-  
+
   /* Create an active/current tablink class */
   .tab button.active {
     background-color: #33334D;
@@ -408,6 +408,3 @@ a {
     padding-bottom: 60px;
   }
 }
-
-
-
