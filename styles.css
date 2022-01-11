@@ -128,7 +128,7 @@ a {
 
 #welcome {
   padding-top: 25em;
-  width: 45%;;
+  width: 870px;
 }
 
 /* about me */
@@ -286,14 +286,9 @@ a {
   padding-bottom: 40px;
 }
 
-
 /*media screens for later*/
 /* ------------------------------------------------------------------- */
 @media only screen and (max-width: 1300px) {
-
-  #welcome{
-    width:870px;
-  }
 
   .grid-container {
     display: grid;
@@ -314,7 +309,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   .side-navbar{
     display: none;
   }
