@@ -260,7 +260,7 @@ a {
 /*media screens for later*/
 /* ------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1550px) {
 
   #welcome{
     padding-top: 15em;
