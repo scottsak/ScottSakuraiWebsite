@@ -127,7 +127,7 @@ a {
 }
 
 #welcome {
-  padding-top: 15em;
+  padding-top: 25em;
   width: 870px;
 }
 
@@ -260,6 +260,10 @@ a {
 /*media screens for later*/
 /* ------------------------------------------------------------------- */
 @media only screen and (max-width: 1300px) {
+
+  #welcome{
+    padding-top: 15em;
+  }
 
   .grid-container {
     display: grid;
