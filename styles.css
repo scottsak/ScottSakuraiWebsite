@@ -257,15 +257,17 @@ a {
   padding-bottom: 40px;
 }
 
-@media only screen and (max-width: 1500px) {
+/*media screens for later*/
+/* ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1600px) {
 
   #welcome{
     padding-top: 15em;
   }
 }
 
-/*media screens for later*/
-/* ------------------------------------------------------------------- */
+
 @media only screen and (max-width: 1300px) {
 
   .grid-container {
