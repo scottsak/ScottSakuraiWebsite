@@ -257,13 +257,16 @@ a {
   padding-bottom: 40px;
 }
 
-/*media screens for later*/
-/* ------------------------------------------------------------------- */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
 
   #welcome{
     padding-top: 15em;
   }
+}
+
+/*media screens for later*/
+/* ------------------------------------------------------------------- */
+@media only screen and (max-width: 1300px) {
 
   .grid-container {
     display: grid;
