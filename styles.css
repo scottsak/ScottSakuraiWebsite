@@ -227,7 +227,7 @@ a {
 /* ------------------------------------------------------------------- */
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   width: 70%;
 }
 
@@ -278,6 +278,7 @@ a {
 	margin-top: 25px;
 	font-size: 15px;
   color: #C5D2E0;
+  padding-bottom: 40px;
 }
 
 
