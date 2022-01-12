@@ -158,20 +158,17 @@ a {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  /* border: 1px solid #ccc; */
-  /* background-color: #f1f1f1; */
   width: 870px;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  /* background-color: inherit; */
   color: white;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 25px;
   transition: 0.3s;
   font-size: 17px;
   background-color: #191A37;
@@ -191,12 +188,18 @@ a {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  /* border: 1px solid #ccc; */
   background-color: #33334D;
-  /* border-top: none; */
   width: 870px;
   border-radius: 0px 50px 30px;
   height: 300px;
+}
+
+.experienceHead{
+  padding: 15px 10px;
+}
+
+.experienceContent{
+  padding-left: 10px;
 }
 
 /* projectsSection */
@@ -382,6 +385,11 @@ a {
     text-align: center;
   }
 
+  /* Style the buttons inside the tab */
+  .tab button {
+    font-size: 40px;
+  }
+
   /* Create an active/current tablink class */
   .tab button.active {
     background-color: #33334D;
@@ -392,6 +400,7 @@ a {
     padding: 6px 12px;
     /* border: 1px solid #ccc; */
     background-color: #33334D;
+    text-align: left;
     /* border-top: none; */
     width: 100%;
     border-radius: 0px 50px 30px;
