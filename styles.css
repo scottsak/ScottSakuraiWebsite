@@ -38,6 +38,10 @@ a {
   color: #68C1D0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /*icon styles*/
 /* ------------------------------------------------------------------- */
 .icons svg path{
