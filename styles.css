@@ -216,6 +216,18 @@ html{
   padding-left: 10px;
 }
 
+.tabHeading{
+  justify-content: space-between;
+  display: flex;
+}
+
+.experienceDate{
+  /* display: flex; */
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
 /* projectsSection */
 /* ------------------------------------------------------------------- */
 .grid-container {
@@ -228,6 +240,8 @@ html{
   text-align: left;
   padding: 10px 10px;
   color: #C5D2E0;
+  justify-content: space-between;
+  display: flex;
 }
 
 .projectsAbout{
@@ -250,6 +264,11 @@ html{
   margin: 5px;
   background-color: #33334D;
   /* opacity: 50%; */
+}
+
+.projectslogos{
+  justify-content: space-between;
+  display: flex;
 }
 
 /* footer */
