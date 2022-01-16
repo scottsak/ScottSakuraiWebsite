@@ -245,9 +245,12 @@ html{
 }
 
 .projectsAbout{
-  padding: 30px 20px;
-  text-align: center;
+  /* padding: 10px 20px; */
+  padding-bottom: 20px;
+  padding-left: 20px;
+  /* text-align: center; */
   color: #C5D2E0;
+  line-height: 40px;
 }
 
 .projectBox4{
@@ -269,7 +272,14 @@ html{
 .projectslogos{
   justify-content: space-between;
   display: flex;
+}
 
+.languagesProject{
+  text-align: center;
+}
+
+.sharelogo{
+  padding-right: 20px;
 }
 
 
@@ -328,6 +338,18 @@ html{
 @media only screen and (max-width: 1050px) {
   .side-navbar{
     display: none;
+  }
+
+  #aboutParagraphContainer{
+    width: 90%;
+  }
+
+  .tabcontent{
+    width: 90%;
+  }
+
+  .grid-container{
+    width: 90%;
   }
 }
 
@@ -433,15 +455,34 @@ html{
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    /* border: 1px solid #ccc; */
     background-color: #33334D;
     text-align: left;
-    /* border-top: none; */
     width: 100%;
     border-radius: 0px 50px 30px;
-    height: 300px;
+    height: 900px;
   }
 
+  .tabHeading{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    display:inline-block;
+    width: 100%;
+  }
+
+  .experienceHead{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .experienceDate{
+    text-align: center;
+    float: none;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    width: auto;
+  }
 
   .grid-container {
     display: grid;
