@@ -142,6 +142,10 @@ html{
 /* about me */
 /* ------------------------------------------------------------------- */
 
+#aboutMe{
+  padding-top: 12em;
+}
+
 #aboutParagraphContainer p{
   font-size: large;
 }
