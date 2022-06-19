@@ -106,13 +106,6 @@ html{
       margin-left: 8px;
 }
 
-#resumeButton{
-  float: right;
-}
-
-#contactMe{
-  float: left;
-}
 
 .messageMeButtons {
   background-color: transparent;
@@ -133,6 +126,11 @@ html{
 #welcome {
   padding-top: 25em;
   width: 870px;
+}
+
+#infoButtons{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* about me */
