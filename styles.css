@@ -7,12 +7,17 @@ body {
 
 .section-Header {
   padding-bottom: 1em;
+  padding-left: 50px;
 }
 
 .section {
   padding-top: 10em;
-  padding-left: 100px;
+  /* padding-left: 100px; */
   padding-right: 15px;
+}
+
+#page{
+  padding: 0px 50px;
 }
 
 #maintenance{
@@ -126,6 +131,7 @@ html{
 #welcome {
   padding-top: 25em;
   width: 870px;
+  padding-left: 50px;
 }
 
 #infoButtons{
@@ -141,8 +147,13 @@ html{
 }
 
 #aboutParagraphContainer{
-  width: 70%;
+  /* width: 80%; */
   padding-left: 350px;
+}
+
+#aboutInfo{
+  margin: 0px auto;
+  width: 80%;
 }
 
 #aboutImage{
@@ -169,7 +180,12 @@ html{
 /* Style the tab */
 .tab {
   overflow: hidden;
-  width: 870px;
+  width: 70%;
+}
+
+#experienceInfo{
+  margin: 0px auto;
+  width: 80%;
 }
 
 /* Style the buttons inside the tab */
@@ -182,7 +198,7 @@ html{
   padding: 14px 25px;
   transition: 0.3s;
   font-size: 17px;
-  background-color: #191A37;
+  background-color: #33334D;
   border-radius: 15px 50px 0px 0px;
   padding-right: 35px;
 }
@@ -194,14 +210,14 @@ html{
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #33334D;
+  background-color: #1F4690;
 }
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  background-color: #33334D;
-  width: 870px;
+  background-color: #1F4690;
+  width: 70%;
   border-radius: 0px 50px 30px;
   height: 300px;
 }
@@ -231,7 +247,8 @@ html{
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  width: 70%;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .projectsHeader{
@@ -256,14 +273,13 @@ html{
 }
 
 .projectBox:hover {
-  background-color: #666679;
+  background-color: #3A5BA0;
 }
 .projectBox {
-  border-radius: 25px;
   padding: 10px;
   /* border: 2px solid #68C1D0; */
   margin: 5px;
-  background-color: #33334D;
+  background-color: #1F4690;
   /* opacity: 50%; */
 }
 
@@ -337,7 +353,6 @@ html{
   }
 
   .projectBox {
-    border-radius: 25px;
     padding: 10px;
     margin: 5px;
   }
@@ -372,6 +387,17 @@ html{
     height: 90px;
     margin-top: 20px;
   }
+
+  #experienceInfo{
+    width: 100%;
+  }
+
+  .section{
+    width: 100% !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sentence{
     font-size: 90px;
     padding-bottom:0px;
@@ -427,6 +453,9 @@ html{
     display: inline-flex;
   }
 
+  #aboutInfo{
+    width: 100%;
+  }
 
 
   #aboutImage{
@@ -459,15 +488,10 @@ html{
     font-size: 40px;
   }
 
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #33334D;
-  }
   /* Style the tab content */
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    background-color: #33334D;
     text-align: left;
     width: 100%;
     border-radius: 0px 50px 30px;
@@ -503,7 +527,6 @@ html{
   }
 
   .projectBox {
-    border-radius: 25px;
     padding: 10px;
     margin: 5px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
