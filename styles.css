@@ -1,7 +1,7 @@
 body {
-  background: #000021;
+  background: #112B3C;
   font-family: 'NTR', sans-serif;
-  color: #C5D2E0;
+  color: #EFEFEF;
 
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  color: #e0eef3;
+  color: #EFEFEF;
   font-size: 60px;
 }
 
@@ -36,11 +36,11 @@ a:hover{
 
 a {
     text-decoration: none !important;
-    color: #68C1D0;
+    color: #F66B0E;
 }
 
 .emphasis {
-  color: #68C1D0;
+  color: #F66B0E;
 }
 
 html{
@@ -90,6 +90,11 @@ html{
       padding-top: 5em;
 }
 
+#welcomeParagraph{
+  width: 75%;
+  margin-top: 20px;
+}
+
 @keyframes blink {
     0% {opacity: 1;}
     40% {opacity: 1;}
@@ -115,8 +120,8 @@ html{
 .messageMeButtons {
   background-color: transparent;
   border-radius: 4px;
-  color: #68C1D0;
-  border: 2px solid #68C1D0;
+  color: #F66B0E;
+  border: 2px solid #F66B0E;
   margin-top: 50px;
   padding: 15px 15px;
   width: 200px;
@@ -210,13 +215,13 @@ html{
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #1F4690;
+  background-color: #205375;
 }
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  background-color: #1F4690;
+  background-color: #205375;
   width: 70%;
   border-radius: 0px 50px 30px;
   height: 300px;
@@ -254,7 +259,7 @@ html{
 .projectsHeader{
   text-align: left;
   padding: 15px 15px;
-  color: #C5D2E0;
+  color: #EFEFEF;
   justify-content: space-between;
   display: flex;
 }
@@ -264,7 +269,7 @@ html{
   padding-bottom: 20px;
   padding-left: 20px;
   /* text-align: center; */
-  color: #C5D2E0;
+  color: #EFEFEF;
   line-height: 40px;
 }
 
@@ -279,7 +284,7 @@ html{
   padding: 10px;
   /* border: 2px solid #68C1D0; */
   margin: 5px;
-  background-color: #1F4690;
+  background-color: #205375;
   /* opacity: 50%; */
 }
 
@@ -412,6 +417,8 @@ html{
 
   #welcomeParagraph{
     font-size: 35px;
+    width: 100%;
+    margin-top: 0px;
   }
 
   #resumeButton{
