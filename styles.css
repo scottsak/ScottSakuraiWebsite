@@ -163,7 +163,7 @@ html{
 
 #aboutInfo{
   margin: 0px auto;
-  width: 80%;
+  width: 70%;
 }
 
 #aboutImage{
@@ -196,7 +196,7 @@ html{
 
 #experienceInfo{
   margin: 0px auto;
-  width: 80%;
+  width: 70%;
 }
 
 /* Style the buttons inside the tab */
@@ -228,9 +228,13 @@ html{
   display: none;
   padding: 6px 12px;
   background-color: #205375;
-  width: 70%;
-  border-radius: 0px 50px 30px;
-  height: 300px;
+  width: 100%;
+  border-radius: 0px 30px 0px 0px;
+}
+
+.tab-logo{
+  height: 120px;
+  text-align: center;
 }
 
 .experienceHead{
@@ -239,6 +243,7 @@ html{
 
 .experienceContent{
   padding-left: 10px;
+  font-size: 18px;
 }
 
 .tabHeading{
@@ -258,7 +263,7 @@ html{
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  width: 80%;
+  width: 70%;
   margin: 0px auto;
 }
 
@@ -292,6 +297,10 @@ html{
   margin: 5px;
   background-color: #205375;
   /* opacity: 50%; */
+}
+
+.spacing{
+  padding-top: 25px;
 }
 
 .projectslogos{
@@ -349,6 +358,8 @@ html{
     padding-top: 15em;
   }
 }
+
+
 
 
 @media only screen and (max-width: 1300px) {
@@ -461,6 +472,10 @@ html{
     text-align: center;
   }
 
+  .experienceContent{
+    font-size: 35px;
+  }
+
   .typing-container{
     text-align: center;
     display: inline-flex;
@@ -508,7 +523,6 @@ html{
     text-align: left;
     width: 100%;
     border-radius: 0px 50px 30px;
-    height: 900px;
   }
 
   .tabHeading{
