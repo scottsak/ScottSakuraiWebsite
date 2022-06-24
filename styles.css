@@ -144,6 +144,7 @@ html{
   justify-content: space-between;
 }
 
+
 /* about me */
 /* ------------------------------------------------------------------- */
 
@@ -181,6 +182,7 @@ html{
 
 .myPicture {
   border-radius: 50px;
+  border: 4px solid #F66B0E;
 }
 
 /* Experience */
@@ -274,7 +276,7 @@ html{
   padding-left: 20px;
   /* text-align: center; */
   color: #EFEFEF;
-  line-height: 40px;
+  /* line-height: 40px; */
 }
 
 .projectBox4{
@@ -540,6 +542,7 @@ html{
   .projectBox {
     padding: 10px;
     margin: 5px;
+    padding-bottom: 50%;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
   }
 
