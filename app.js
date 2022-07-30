@@ -19,21 +19,18 @@ document.getElementById("defaultOpen").click();
 
 //carousel
 let box = document.querySelector('.carousel-inner');
-document.querySelector(".carousel-inner").style.height = 'auto';
 let height = box.offsetHeight;
-console.log(height)
+while (height !== 0){
+  console.log("in loop")
+  document.querySelector(".carousel-inner").style.height = 'auto';
+  box = document.querySelector('.carousel-inner');
+  height = box.offsetHeight;
+}
+console.log("out of loop")
 const desiredHeight = (height+60);
 console.log("desired height dblock: "+ desiredHeight)
+console.log("changed the height")
 document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
-if(desiredHeight === 60){
-  document.querySelector(".carousel-inner").style.height = 'auto';
-  let box = document.querySelector('.carousel-inner');
-  let height = box.offsetHeight;
-  const desiredHeight = (height+60);
-  console.log(height)
-  console.log("desired height carousel in if statement: "+ desiredHeight);
-  document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
-}
 // document.querySelector("carousel-inner").style.height = String(desiredHeight) + ' px';
 
 
