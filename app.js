@@ -23,7 +23,7 @@ let width = box.offsetWidth;
 let height = box.offsetHeight;
 const desiredHeight = (height+60);
 document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
-if(height === 0){
+if(desiredHeight === 60){
 window.location.reload();
 }
 // document.querySelector("carousel-inner").style.height = String(desiredHeight) + ' px';
