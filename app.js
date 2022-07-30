@@ -18,18 +18,20 @@ document.getElementById("defaultOpen").click();
 
 
 //carousel
-let box = document.querySelector('.d-block');
-let width = box.offsetWidth;
+let box = document.querySelector('.carousel-inner');
+document.querySelector(".carousel-inner").style.height = 'auto';
 let height = box.offsetHeight;
+console.log(height)
 const desiredHeight = (height+60);
 console.log("desired height dblock: "+ desiredHeight)
 document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 if(desiredHeight === 60){
-  let box = document.querySelector('.d-block');
+  document.querySelector(".carousel-inner").style.height = 'auto';
+  let box = document.querySelector('.carousel-inner');
   let height = box.offsetHeight;
   const desiredHeight = (height+60);
   console.log(height)
-  console.log("desired height dblock in if statement: "+ desiredHeight)
+  console.log("desired height carousel in if statement: "+ desiredHeight);
   document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 }
 // document.querySelector("carousel-inner").style.height = String(desiredHeight) + ' px';
