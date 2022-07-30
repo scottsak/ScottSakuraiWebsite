@@ -260,6 +260,40 @@ html{
 
 /* projectsSection */
 /* ------------------------------------------------------------------- */
+
+.carousel{
+  margin: auto;
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;
+}
+.carousel-caption{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 0 ;
+  padding-bottom: 15px;
+  /* background-color: red; */
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-project-section{
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+.projectsLogosCarousel{
+  justify-content: space-between;
+    display: flex;
+    width: 20%;
+    margin: auto;
+}
+
+.project-spacer{
+  height: 40px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -288,6 +322,10 @@ html{
   display: none;
 }
 
+.projectbox-slider{
+  display: none;
+}
+
 .projectBox:hover {
   background-color: #3A5BA0;
 }
@@ -296,6 +334,7 @@ html{
   /* border: 2px solid #68C1D0; */
   margin: 5px;
   background-color: #205375;
+  border-radius: 20px;
   /* opacity: 50%; */
 }
 
@@ -551,6 +590,14 @@ html{
     display: grid;
     grid-template-columns: auto;
     width: 100%;
+  }
+
+  .carousel-project-section{
+    display: none;
+  }
+
+  .projectbox-slider{
+    display: inline;
   }
 
   .projectBox {

@@ -15,3 +15,17 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+//carousel
+let box = document.querySelector('.carousel-inner');
+let width = box.offsetWidth;
+let height = box.offsetHeight;
+console.log(height)
+const desiredHeight = (height+60);
+console.log(desiredHeight)
+document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
+// document.querySelector("carousel-inner").style.height = String(desiredHeight) + ' px';
+
+
+

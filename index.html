@@ -3,7 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="icon" href="./images/Scott_no_words.png">
@@ -21,129 +31,265 @@
     <a href="#experience">/experience</a>
     <a href="#projects">/projects</a>
     <div class="icons">
-      <a href="https://www.linkedin.com/in/scottsakurai/"><img class="icon-btn" src="icons/linkedin.svg" alt="linkedin icon" width="30px"></a>
-      <a href="https://github.com/scottsak"><img class="icon-btn" src="icons/github.svg" alt="github icon" width="30px"></a>
-      <a href="mailto:scott.t.sakurai@gmail.com"><img class="icon-btn" src="icons/gmail.svg" alt="email icon" width="30px"></a>
+      <a href="https://www.linkedin.com/in/scottsakurai/"><img class="icon-btn" src="icons/linkedin.svg"
+          alt="linkedin icon" width="30px"></a>
+      <a href="https://github.com/scottsak"><img class="icon-btn" src="icons/github.svg" alt="github icon"
+          width="30px"></a>
+      <a href="mailto:scott.t.sakurai@gmail.com"><img class="icon-btn" src="icons/gmail.svg" alt="email icon"
+          width="30px"></a>
     </div>
   </div>
 
   <div id="page">
 
-  <div id="welcome" class="welcomeMessage section">
-    <!--<img class="logoTop" src="images/matrix.gif" alt="My Image" width="300px" height="300px">-->
+    <div id="welcome" class="welcomeMessage section">
+      <!--<img class="logoTop" src="images/matrix.gif" alt="My Image" width="300px" height="300px">-->
 
 
-    <div class="typing-container">
-      <span class="sentence">Hi, I'm <span class="emphasis">Scott</span></span>
-      <span class="input-cursor"></span>
-    </div>
-
-    <h2 id=welcomeSentence>Welcome to my personal website</h2>
-    <p id="welcomeParagraph">I am a software engineer based in California.
-      I am interested in both frontend and backend development. I am a hardworker and am eager to develop and master new skills everyday.</p>
-
-    <div id="infoButtons">
-
-
-    <button onclick="location.href='mailto:scott.t.sakurai@gmail.com'" type="button" id="contactMe" class="messageMeButtons">Contact Me</button>
-    <button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton" class="messageMeButtons">Resume</button>
-
-    </div>
-
-  </div>
-
-  <div id="aboutMe" class="section aboutMe">
-    <h2 class="section-Header">/about-me</h2>
-    <div id="aboutInfo">
-    <div id="aboutImage" class="about">
-      <img class="myPicture" src="images/Scott.png" alt="Picture of Scott" width="300px" height="300px">
-    </div>
-    <div id="aboutParagraphContainer" class="about">
-      <p id="aboutParagraph">I am a recent graduate of California State University, Long Beach with a Bachelor of Science in Computer Science.
-        During my time at Long Beach, I was afforded the opportunity to become the webmaster for 22 West Media.<br><br>
-        I have recently been taking courses through Udemy to further my knowledge of web development and ethical hacking. I am someone
-        who loves watching movies and tv shows but I have recently found a love for playing video games.<br><br>
-        Below are some of the technologies that I am able to use:
-      </p>
-      <div class="techKnown">
-        <ul id="list1" class="techList">
-          <li>Python</li>
-          <li>Java</li>
-          <li>JavaScript</li>
-        </ul>
-        <ul id="list2" class="techList">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Node.js</li>
-        </ul>
+      <div class="typing-container">
+        <span class="sentence">Hi, I'm <span class="emphasis">Scott</span></span>
+        <span class="input-cursor"></span>
       </div>
 
-    </div>
-  </div>
-  </div>
+      <h2 id=welcomeSentence>Welcome to my personal website</h2>
+      <p id="welcomeParagraph">I am a software engineer based in California.
+        I am interested in both frontend and backend development. I am a hardworker and am eager to develop and master
+        new skills everyday.</p>
 
-  <div id="experience" class="section experience">
-    <h2 class="section-Header">/experience</h2>
-    <div id="experienceInfo">
+      <div id="infoButtons">
 
-      <div class="tab">
-        <div id="tabback"></div>
-        <button class="tablinks" onclick="openCity(event, 'school')" id="defaultOpen">CSULB</button>
-        <button class="tablinks" onclick="openCity(event, '22west')">22 West Media</button>
-      </div>
 
-      <div id="school" class="tabcontent">
-        <div class="tabHeading">
-          <h3 class="experienceHead"><span class="emphasis">Student</span> @ California State University, Long Beach</h3>
-          <p class="experienceDate">August 2018-May 2022</p>
-        </div>
+        <button onclick="location.href='mailto:scott.t.sakurai@gmail.com'" type="button" id="contactMe"
+          class="messageMeButtons">Contact Me</button>
+        <button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton"
+          class="messageMeButtons">Resume</button>
 
-        <p class="experienceContent">I am currently a recent graduate of California State University, Long Beach. From my time
-        at Long Beach, I have learned many different programming languages such as Java, Python, C++, while also learning
-        principles like data structures and algorithms. Courses that have been a highlight for me are
-        the courses that I took on Artificial Intelligence, Cyber Security, and Mobile Application Development. I graduated 
-        in the Spring of 2022 and am currently looking for a full time position or a new grad position.</p>
-        <div class="spacing"></div>
-        <div class = 'tab-logo'>
-          <img src="images/lb_logo.png" alt="csulb logo" height="100px">
-        </div>
-        <div class="spacing"></div>
-      </div>
-
-      <div id="22west" class="tabcontent">
-        <div class="tabHeading">
-          <h3 class="experienceHead"><span class="emphasis">Webmaster</span> @ 22 West Media</h3>
-          <p class="experienceDate">August 2021-Now</p>
-        </div>
-        <p class="experienceContent">I currently work as the webmaster at 22 West Media. I update the website with new content using
-          html, css, and php. While working this position, I have had to meet deadlines and learn new technologies on the fly. I work
-          with various APIs to provide content to the site. I work well with others and am a team player. </p>
-        <div class="spacing"></div>
-        <div class = 'tab-logo'>
-          <img src="images/22west.png" alt="22west logo" height="100px">
-        </div>
-        <div class="spacing"></div>
       </div>
 
     </div>
 
-  </div>
+    <div id="aboutMe" class="section aboutMe">
+      <h2 class="section-Header">/about-me</h2>
+      <div id="aboutInfo">
+        <div id="aboutImage" class="about">
+          <img class="myPicture" src="images/Scott.png" alt="Picture of Scott" width="300px" height="300px">
+        </div>
+        <div id="aboutParagraphContainer" class="about">
+          <p id="aboutParagraph">I am a recent graduate of California State University, Long Beach with a Bachelor of
+            Science in Computer Science.
+            During my time at Long Beach, I was afforded the opportunity to become the webmaster for 22 West
+            Media.<br><br>
+            I have recently been taking courses through Udemy to further my knowledge of web development and ethical
+            hacking. I am someone
+            who loves watching movies and tv shows but I have recently found a love for playing video games.<br><br>
+            Below are some of the technologies that I am able to use:
+          </p>
+          <div class="techKnown">
+            <ul id="list1" class="techList">
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul id="list2" class="techList">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="experience" class="section experience">
+      <h2 class="section-Header">/experience</h2>
+      <div id="experienceInfo">
+
+        <div class="tab">
+          <div id="tabback"></div>
+          <button class="tablinks" onclick="openCity(event, 'school')" id="defaultOpen">CSULB</button>
+          <button class="tablinks" onclick="openCity(event, '22west')">22 West Media</button>
+        </div>
+
+        <div id="school" class="tabcontent">
+          <div class="tabHeading">
+            <h3 class="experienceHead"><span class="emphasis">Student</span> @ California State University, Long Beach
+            </h3>
+            <p class="experienceDate">August 2018-May 2022</p>
+          </div>
+
+          <p class="experienceContent">I am currently a recent graduate of California State University, Long Beach. From
+            my time
+            at Long Beach, I have learned many different programming languages such as Java, Python, C++, while also
+            learning
+            principles like data structures and algorithms. Courses that have been a highlight for me are
+            the courses that I took on Artificial Intelligence, Cyber Security, and Mobile Application Development. I
+            graduated
+            in the Spring of 2022 and am currently looking for a full time position or a new grad position.</p>
+          <div class="spacing"></div>
+          <div class='tab-logo'>
+            <img src="images/lb_logo.png" alt="csulb logo" height="100px">
+          </div>
+          <div class="spacing"></div>
+        </div>
+
+        <div id="22west" class="tabcontent">
+          <div class="tabHeading">
+            <h3 class="experienceHead"><span class="emphasis">Webmaster</span> @ 22 West Media</h3>
+            <p class="experienceDate">August 2021-Now</p>
+          </div>
+          <p class="experienceContent">I currently work as the webmaster at 22 West Media. I update the website with new
+            content using
+            html, css, and php. While working this position, I have had to meet deadlines and learn new technologies on
+            the fly. I work
+            with various APIs to provide content to the site. I work well with others and am a team player. </p>
+          <div class="spacing"></div>
+          <div class='tab-logo'>
+            <img src="images/22west.png" alt="22west logo" height="100px">
+          </div>
+          <div class="spacing"></div>
+        </div>
+
+      </div>
+
+    </div>
 
 
-  <div id="projects" class="section projects">
-    <h2 class="section-Header">/projects</h2>
-    <div class="grid-container">
+    <div id="projects" class="section projects">
+      <h2 class="section-Header">/projects</h2>
 
-        <div class="projectBox1 projectBox">
-          <div class="projectsHeader">
-              <h3 class="ProjectsHead">ScreenTime Game</h3>
-              <div class="projectslogos">
-                <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><img class="logoExperience" src="icons/share.svg" alt="share icon" width="30px"></a>
-                <a href="https://github.com/scottsak/MovieTimeline"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a>
+      <div class="carousel-project-section">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div id='carousel-content' class="carousel-inner">
+          <div class="carousel-item active">
+              <img class="d-block w-100" src="./images/Reegle-Site.png" alt="reegle">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Reegle</h5>
+                <p>
+                <div class="techLogos">
+                  <img class="techIcon" src="icons/html.svg" alt="html icon" width="10px">
+                  <img class="techIcon" src="icons/css.svg" alt="css icon" width="10px">
+                  <img class="techIcon" src="icons/js.svg" alt="js icon" width="10px">
+                  <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="10px">
+                  <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="10px">
+                  <img class="techIcon" src="icons/mysql-icon.svg" alt="react icon" width="10px">
+                  
+                </div>
+                New movie trivia game based on movie hints.
+                </p>
+                <div class="projectslogosCarousel">
+                  <a class="sharelogo" href="https://reegle.netlify.app/"><img class="logoExperience"
+                      src="icons/share.svg" alt="share icon" width="20px"></a>
+                  <a href="https://github.com/scottsak/ReegleClient"><img class="logoExperience" src="icons/github.svg"
+                      alt="github icon" width="20px"></a>
+                </div>
               </div>
+          </div>
+
+          <div class="carousel-item">
+            <!-- <a href="https://secure-basin-13180.herokuapp.com/"> -->
+              <img class="d-block w-100" src="./images/ScreenTime.png" alt="screentime">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ScreenTime</h5>
+
+                  <div class="techLogos">
+                    <img class="techIcon" src="icons/html.svg" alt="html icon" width="10px">
+                    <img class="techIcon" src="icons/css.svg" alt="css icon" width="10px">
+                    <img class="techIcon" src="icons/js.svg" alt="js icon" width="10px">
+                    <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="10px">
+                    <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="10px">
+                  </div>
+                  <p>
+                  A movie trivia game that tests users on the movie's release dates
+                </p>
+                <div class="projectslogosCarousel">
+                  <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><img class="logoExperience"
+                      src="icons/share.svg" alt="share icon" width="20px"></a>
+                  <a href="https://github.com/scottsak/MovieTimeline"><img class="logoExperience" src="icons/github.svg"
+                      alt="github icon" width="20px"></a>
+                </div>
+              </div>
+            <!-- </a> -->
+          </div>
+          <div class="carousel-item">
+              <img class="d-block w-100" src="./images/Stub.png" alt="stub">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Stub</h5>
+                <div class="techLogos">
+                  <img class="techIcon" src="icons/css.svg" alt="css icon" width="10px">
+                  <img class="techIcon" src="icons/js.svg" alt="js icon" width="10px">
+                  <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="10px">
+                  <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="10px">
+                  <!-- <img class="techIcon" src="icons/nodejs.svg" alt="email icon" width="30px"> -->
+                </div>
+                <p>A great new way of finding the perfect movie to watch!</p>
+                <div class="projectslogosCarousel">
+                  <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><img class="logoExperience"
+                      src="icons/share.svg" alt="share icon" width="20px"></a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+
+      <div class="project-spacer"></div>
+
+      <div class="grid-container">
+
+        <div class="projectbox-slider projectBox0 projectBox">
+          <div class="projectsHeader">
+            <h3 class="ProjectsHead">Reegle</h3>
+            <div class="projectslogos">
+              <a class="sharelogo" href="https://reegle.netlify.app/"><img class="logoExperience"
+                  src="icons/share.svg" alt="share icon" width="20px"></a>
+              <a href="https://github.com/scottsak/ReegleClient"><img class="logoExperience" src="icons/github.svg"
+                  alt="github icon" width="20px"></a>
             </div>
+          </div>
           <div class="projectsAbout">
-            <p>A game that tests users movie knowledge!</p>
+            <p>New movie trivia game based on movie hints.</p>
+          </div>
+          <div class="techLogos">
+            <img class="techIcon" src="icons/html.svg" alt="html icon" width="30px">
+            <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
+            <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
+            <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="30px">
+            <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="30px">
+            <img class="techIcon" src="icons/mysql-icon.svg" alt="react icon" width="30px">
+          
+          </div>
+        </div>
+
+
+        <div class="projectbox-slider projectBox1 projectBox">
+          <div class="projectsHeader">
+            <h3 class="ProjectsHead">ScreenTime Game</h3>
+            <div class="projectslogos">
+              <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><img class="logoExperience"
+                  src="icons/share.svg" alt="share icon" width="30px"></a>
+              <a href="https://github.com/scottsak/MovieTimeline"><img class="logoExperience" src="icons/github.svg"
+                  alt="github icon" width="30px"></a>
+            </div>
+          </div>
+          <div class="projectsAbout">
+            <p>A movie trivia game that tests users on the movie's release dates.</p>
           </div>
           <div class="techLogos">
             <img class="techIcon" src="icons/html.svg" alt="html icon" width="30px">
@@ -155,30 +301,58 @@
         </div>
 
         <div class="projectBox2 projectBox">
-            <div class="projectsHeader">
-                <h3 class="ProjectsHead">Simon Game</h3>
-                <div class="projectslogos">
-                  <a class="sharelogo" href="https://scottsak.github.io/Simon-Game/"><img class="logoExperience" src="icons/share.svg" alt="share icon" width="30px"></a>
-                  <a href="https://github.com/scottsak/Simon-Game"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a>
-                </div>
+          <div class="projectsHeader">
+            <h3 class="ProjectsHead">Personal Blog</h3>
+            <div class="projectslogos">
+              <a class="sharelogo" href="https://scottsblog.herokuapp.com/"><img class="logoExperience"
+                  src="icons/share.svg" alt="share icon" width="30px"></a>
+              <a href="https://github.com/scottsak/blogSite"><img class="logoExperience" src="icons/github.svg"
+                  alt="github icon" width="30px"></a>
             </div>
+          </div>
 
-            <div class="projectsAbout">
-              <p>A simulation of the famous electronic memory game. Creating random patterns for the player to memorize.</p>
-            </div>
-            <div class="techLogos">
-              <img class="techIcon" src="icons/html.svg" alt="html icon" width="30px">
-              <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
-              <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
-            </div>
+          <div class="projectsAbout">
+            <p>A python program that solves a randomly generated MineSweeper board.</p>
+          </div>
+          <div class="techLogos">
+            <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
+            <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
+            <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="30px">
+            <img class="techIcon" src="icons/ejs.svg" alt="ejs icon" width="30px">
+
+          </div>
+          </a>
         </div>
 
         <div class="projectBox3 projectBox">
           <div class="projectsHeader">
-              <h3 class="ProjectsHead">MineSweeper</h3>
-              <div class="projectslogos">
-                <a href="https://github.com/scottsak/MineSweeper"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a>
-              </div>
+            <h3 class="ProjectsHead">Simon Game</h3>
+            <div class="projectslogos">
+              <a class="sharelogo" href="https://scottsak.github.io/Simon-Game/"><img class="logoExperience"
+                  src="icons/share.svg" alt="share icon" width="30px"></a>
+              <a href="https://github.com/scottsak/Simon-Game"><img class="logoExperience" src="icons/github.svg"
+                  alt="github icon" width="30px"></a>
+            </div>
+          </div>
+
+          <div class="projectsAbout">
+            <p>A simulation of the famous electronic memory game. Creating random patterns for the player to memorize.
+            </p>
+          </div>
+          <div class="techLogos">
+            <img class="techIcon" src="icons/html.svg" alt="html icon" width="30px">
+            <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
+            <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
+          </div>
+        </div>
+
+        <div class="projectBox5 projectBox">
+          <div class="projectsHeader">
+            <h3 class="ProjectsHead">MineSweeper</h3>
+            <div class="projectslogos">
+              <a href="https://github.com/scottsak/MineSweeper"><img class="logoExperience" src="icons/github.svg"
+                  alt="github icon" width="30px"></a>
+            </div>
           </div>
 
           <div class="projectsAbout">
@@ -187,34 +361,59 @@
           <div class="techLogos">
             <img class="techIcon" src="icons/python.svg" alt="python icon" width="30px">
           </div>
-        </a>
-      </div>
-
-        <div class="projectBox4 projectBox">
-            <div class="projectsHeader">
-                <h3 class="ProjectsHead">Stub</h3>
-                <div class="projectslogos">
-                  <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><img class="logoExperience" src="icons/share.svg" alt="share icon" width="30px"></a>
-                  <!-- <a href="https://github.com/scottsak/trumpetApp"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a> -->
-                </div>
-            </div>
-
-            <div class="projectsAbout">
-              <p>A great new way of finding the perfect movie to watch!</p>
-            </div>
-            <div class="techLogos">
-              <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
-              <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
-              <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="30px">
-              <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="30px">
-              <!-- <img class="techIcon" src="icons/nodejs.svg" alt="email icon" width="30px"> -->
-            </div>
+          </a>
         </div>
 
-        
+        <div class="projectbox-slider projectBox5 projectBox">
+          <div class="projectsHeader">
+            <h3 class="ProjectsHead">Stub</h3>
+            <div class="projectslogos">
+              <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><img class="logoExperience"
+                  src="icons/share.svg" alt="share icon" width="30px"></a>
+              <!-- <a href="https://github.com/scottsak/trumpetApp"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a> -->
+            </div>
+          </div>
+
+          <div class="projectsAbout">
+            <p>A great new way of finding the perfect movie to watch!</p>
+          </div>
+          <div class="techLogos">
+            <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
+            <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
+            <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="30px">
+            <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="30px">
+            <!-- <img class="techIcon" src="icons/nodejs.svg" alt="email icon" width="30px"> -->
+          </div>
+        </div>
+
+
+
+        <div class="projectBox4 projectBox">
+          <div class="projectsHeader">
+            <h3 class="ProjectsHead">Trumpet Simulator</h3>
+            <div class="projectslogos">
+              <a class="sharelogo" href="https://scottsak.github.io/trumpetApp/"><img class="logoExperience"
+                  src="icons/share.svg" alt="share icon" width="30px"></a>
+              <a href="https://github.com/scottsak/trumpetApp"><img class="logoExperience" src="icons/github.svg"
+                  alt="github icon" width="30px"></a>
+            </div>
+          </div>
+
+          <div class="projectsAbout">
+            <p>A simulation of a trumpet so you can play all your favorite songs!</p>
+          </div>
+          <div class="techLogos">
+            <img class="techIcon" src="icons/html.svg" alt="html icon" width="30px">
+            <img class="techIcon" src="icons/css.svg" alt="css icon" width="30px">
+            <img class="techIcon" src="icons/js.svg" alt="js icon" width="30px">
+          </div>
+          </a>
+        </div>
+
+
+      </div>
     </div>
   </div>
-</div>
 
   <div class="footer-padding"></div>
   <div class="footer">
