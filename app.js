@@ -28,6 +28,7 @@ if(desiredHeight === 60){
   let box = document.querySelector('.d-block');
   let height = box.offsetHeight;
   const desiredHeight = (height+60);
+  console.log(height)
   console.log("desired height dblock in if statement: "+ desiredHeight)
   document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 }
