@@ -22,12 +22,15 @@ let box = document.querySelector('.carousel-inner');
 let width = box.offsetWidth;
 let height = box.offsetHeight;
 const desiredHeight = (height+60);
+console.log("desired height: "+ desiredHeight)
 document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 if(desiredHeight === 60){
   document.querySelector(".carousel-inner").style.height = 'auto';
   let box = document.querySelector('.carousel-inner');
   let height = box.offsetHeight;
   const desiredHeight = (height+60);
+  console.log("desired height: in if statement: "+ desiredHeight)
+  document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 }
 // document.querySelector("carousel-inner").style.height = String(desiredHeight) + ' px';
 
