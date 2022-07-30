@@ -21,10 +21,11 @@ document.getElementById("defaultOpen").click();
 let box = document.querySelector('.carousel-inner');
 let width = box.offsetWidth;
 let height = box.offsetHeight;
-console.log(height)
 const desiredHeight = (height+60);
-console.log(desiredHeight)
 document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
+if(height === 0){
+window.location.reload();
+}
 // document.querySelector("carousel-inner").style.height = String(desiredHeight) + ' px';
 
 
