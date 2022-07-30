@@ -18,15 +18,14 @@ document.getElementById("defaultOpen").click();
 
 
 //carousel
-let box = document.querySelector('.carousel-inner');
+let box = document.querySelector('.d-block');
 let width = box.offsetWidth;
 let height = box.offsetHeight;
 const desiredHeight = (height+60);
 console.log("desired height: "+ desiredHeight)
 document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 if(desiredHeight === 60){
-  document.querySelector(".carousel-inner").style.height = 'auto';
-  let box = document.querySelector('.carousel-inner');
+  let box = document.querySelector('.d-block');
   let height = box.offsetHeight;
   const desiredHeight = (height+60);
   console.log("desired height: in if statement: "+ desiredHeight)
