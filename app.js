@@ -20,11 +20,13 @@ document.getElementById("defaultOpen").click();
 //carousel
 let box = document.querySelector('.carousel-inner');
 let height = box.offsetHeight;
-while (height !== 0){
+console.log(height)
+while (height === 0){
   console.log("in loop")
   document.querySelector(".carousel-inner").style.height = 'auto';
   box = document.querySelector('.carousel-inner');
   height = box.offsetHeight;
+  console.log(height)
 }
 console.log("out of loop")
 const desiredHeight = (height+60);
