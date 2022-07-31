@@ -24,6 +24,7 @@ body {
   text-align: center;
 }
 
+
 h1 {
   color: #EFEFEF;
   font-size: 60px;
@@ -342,6 +343,10 @@ html{
   padding-top: 25px;
 }
 
+.logoExperience{
+  width: 30px;
+}
+
 .projectslogos{
   justify-content: space-between;
   display: flex;
@@ -489,6 +494,20 @@ html{
     font-size: 30px !important;
   }
 
+  .ProjectsHead{
+    font-size: 80px;
+  }
+
+  .project-paragraph{
+    margin-top: auto;
+    font-size: 45px;
+  }
+
+  .projectsAbout{
+    width: 60%;
+    margin: auto;
+  }
+
   p{
     font-size: 35px;
   }
@@ -605,6 +624,10 @@ html{
     margin: 5px;
     padding-bottom: 50%;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  }
+
+  .logoExperience{
+    width: 60px;
   }
 
   .techIcon {
