@@ -159,7 +159,7 @@ html{
 
 #aboutParagraphContainer{
   /* width: 80%; */
-  padding-left: 350px;
+  /* padding-left: 350px; */
 }
 
 #aboutInfo{
@@ -169,7 +169,9 @@ html{
 
 #aboutImage{
   float:left;
+  padding-right: 20px;
 }
+
 
 .techKnown{
   /* text-align: center; */
@@ -425,6 +427,8 @@ html{
 }
 
 @media only screen and (max-width: 1050px) {
+
+
   .side-navbar{
     display: none;
   }
