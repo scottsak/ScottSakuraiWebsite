@@ -5,6 +5,10 @@ body {
 
 }
 
+button{
+  cursor: pointer;
+}
+
 li{
   list-style: none;
 }
@@ -173,7 +177,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 40px;
+  margin: auto 40px;
 }
 
 .shadow {
@@ -199,6 +203,7 @@ nav li {
 }
 #welcome-content{
   width: 870px;
+  
 }
 
 @keyframes blink {
@@ -223,7 +228,7 @@ nav li {
 }
 
 
-.messageMeButtons {
+/* .messageMeButtons {
   background-color: transparent;
   border-radius: 4px;
   color: #F66B0E;
@@ -231,6 +236,16 @@ nav li {
   margin-top: 50px;
   padding: 15px 15px;
   width: 200px;
+} */
+
+.messageMeButtons{
+      background-color: transparent;
+    border-radius: 4px;
+    color: #F66B0E;
+    border: 2px solid #F66B0E;
+    /* margin-top: 50px; */
+    padding: 10px 10px;
+    /* width: 200px; */
 }
 
 .messageMeButtons:hover{
@@ -241,6 +256,8 @@ nav li {
 
 #welcome {
   padding-top: 25em;
+  min-height: 100vh;
+  padding-top: 18%;
   /* width: 870px; */
   /* padding-left: 50px; */
 }
@@ -255,7 +272,7 @@ nav li {
 /* ------------------------------------------------------------------- */
 
 #aboutMe{
-  padding-top: 12em;
+  padding-top: 0;
 }
 
 #aboutParagraphContainer p{
@@ -510,9 +527,10 @@ nav li {
 
 @media only screen and (max-width: 1550px) {
 
-  #welcome{
+  /* #welcome{
     padding-top: 15em;
-  }
+    min-height: unset;
+  } */
 }
 
 
@@ -532,11 +550,16 @@ nav li {
 
   .projectBox {
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
   }
 }
 
 @media only screen and (max-width: 1050px) {
+
+    #welcome{
+    /* padding-top: 15em; */
+    min-height: unset;
+  }
 
 
   .side-navbar{
