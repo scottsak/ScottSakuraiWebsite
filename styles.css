@@ -5,15 +5,22 @@ body {
 
 }
 
+li{
+  list-style: none;
+}
+
 .section-Header {
   padding-bottom: 1em;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .section {
   padding-top: 10em;
   /* padding-left: 100px; */
-  padding-right: 15px;
+  margin: auto;
+  width: 70%;
+  /* padding-right: 15px; */
+  /* padding-left: 50px; */
 }
 
 #page{
@@ -47,6 +54,56 @@ a {
 html{
   scroll-behavior: smooth;
 }
+
+/* Floating socials */
+
+.left-social li,
+.right-social li {
+  margin: 25px 0;
+}
+
+.left-social,
+.right-social {
+  position: fixed;
+  top: 50vh;
+  color: var(--text-teal);
+}
+
+.email {
+  writing-mode: vertical-rl;
+}
+
+.left-social {
+  left: 40px;
+}
+
+.right-social {
+  right: 40px;
+}
+
+.vertical-line {
+  height: 50vh;
+  background-color: white;
+  width: 2px;
+  margin: 0 6px;
+  overflow: hidden;
+}
+
+.right-social li:hover,
+.left-social li:hover {
+  color: var(--bright-green);
+}
+
+.left-social li :not(div):hover {
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+
+.left-social li div:hover,
+.right-social li div:hover {
+  background: var(--bright-green);
+}
+
 
 /*icon styles*/
 /* ------------------------------------------------------------------- */
@@ -84,6 +141,51 @@ html{
   font-size: 20px;
 }
 
+/*navbar */
+/* ------------------------------------------------------------------- */
+#logo{
+width: 40px;
+height: 40px;
+/* border-radius: 40%; */
+}
+
+nav li {
+    list-style: none;
+  }
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: top 0.3s;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 0;
+}
+
+nav li {
+  margin: 0 40px;
+}
+
+.shadow {
+  /* box-shadow: 0px 1px 10px rgba(122, 122, 122, 0.25); */
+  transition: all 0.3s;
+  backdrop-filter: blur(5px);
+}
+
+.hamburger{
+  display: none;
+}
+
 /*welcome logo*/
 /* ------------------------------------------------------------------- */
 .typing-container {
@@ -94,6 +196,9 @@ html{
 #welcomeParagraph{
   width: 75%;
   margin-top: 20px;
+}
+#welcome-content{
+  width: 870px;
 }
 
 @keyframes blink {
@@ -129,15 +234,15 @@ html{
 }
 
 .messageMeButtons:hover{
-  background-color: #02022b;
-  color: white;
-  border: 2px solid white;
+  background-color: #F66B0E;
+  color: #112B3C;
+  border: 2px solid #112B3C;
 }
 
 #welcome {
   padding-top: 25em;
-  width: 870px;
-  padding-left: 50px;
+  /* width: 870px; */
+  /* padding-left: 50px; */
 }
 
 #infoButtons{
@@ -163,8 +268,8 @@ html{
 }
 
 #aboutInfo{
-  margin: 0px auto;
-  width: 70%;
+  /* margin: 0px auto;
+  width: 70%; */
 }
 
 #aboutImage{
@@ -199,7 +304,7 @@ html{
 
 #experienceInfo{
   margin: 0px auto;
-  width: 70%;
+  width: 100%;
 }
 
 /* Style the buttons inside the tab */
@@ -281,7 +386,7 @@ html{
 }
 
 .carousel-project-section{
-  width: 60%;
+  width: 100%;
   margin: auto;
   position: relative;
 }
@@ -300,7 +405,7 @@ html{
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  width: 70%;
+  width: 100%;
   margin: 0px auto;
 }
 
@@ -330,16 +435,21 @@ html{
 }
 
 .projectBox:hover {
-  background-color: #3A5BA0;
+  /* background-color: #3A5BA0; */
 }
 .projectBox {
   padding: 10px;
   /* border: 2px solid #68C1D0; */
-  margin: 5px;
+  margin: 10px;
   background-color: #205375;
   border-radius: 20px;
+  transition: all .2s ease-in-out; 
   /* opacity: 50%; */
 }
+  
+  .projectBox:hover { 
+  transform: scale(1.1); 
+  }
 
 .spacing{
   padding-top: 25px;
@@ -413,7 +523,7 @@ html{
   .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 80%;
+    /* width: 80%; */
   }
 
   .projectBox4{
@@ -451,6 +561,14 @@ html{
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
+
+  .left-social{
+    display: none;
+  }
+
+  .right-social{
+    display: none;
+  }
 
   .input-cursor {
     width: 4px;
