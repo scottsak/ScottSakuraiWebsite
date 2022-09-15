@@ -1,4 +1,6 @@
 //jshint esversion:6
+
+//experience tab
 function openExperience(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -25,5 +27,25 @@ let desiredHeight = (height+60);
   document.querySelector(".carousel-inner").style.height = String(desiredHeight) + 'px';
 })
 
+//hamburger menu
+function openSideBar(x) {
+  x.classList.toggle('change');
 
+  const sideBar = document.getElementById('side-bar');
+  const body = document.getElementsByTagName('body')[0];
+  sideBar.classList.toggle('open-nav');
+  body.classList.toggle('no-scroll');
+  page.classList.toggle('blur');
+  navBarOpened = true;
+}
 
+function closeSideBar() {
+  const sideBar = document.getElementById('side-bar');
+  const body = document.getElementsByTagName('body')[0];
+  const button = document.getElementsByClassName('change')[0];
+  sideBar.classList.remove('open-nav');
+  body.classList.remove('no-scroll');
+  page.classList.remove('blur');
+  button.classList.remove('change');
+  navBarOpened = false;
+}
