@@ -427,6 +427,7 @@ nav li {
 
 .grid-container {
   display: grid;
+  justify-content: center;
   grid-template-columns: 33% 33% 33%;
   width: 100%;
   margin: 0px auto;
@@ -582,11 +583,11 @@ nav li {
   }
 
   #aboutParagraphContainer{
-    width: 90%;
+    /* width: 90%; */
   }
 
   .tabcontent{
-    width: 90%;
+    /* width: 90%; */
   }
 
   .grid-container{
@@ -788,8 +789,9 @@ nav li {
   .projectBox {
     padding: 10px;
     margin: 5px;
-    padding-bottom: 50%;
+    /* padding-bottom: 50%; */
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    min-height: 40vh;
   }
 
   .logoExperience{
