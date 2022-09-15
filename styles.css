@@ -260,7 +260,7 @@ nav li {
 
 #welcome {
   padding-top: 25em;
-  min-height: 100vh;
+  min-height: 90vh;
   padding-top: 18%;
   /* width: 870px; */
   /* padding-left: 50px; */
@@ -276,7 +276,7 @@ nav li {
 /* ------------------------------------------------------------------- */
 
 #aboutMe{
-  padding-top: 0;
+  padding-top: 10vh;
 }
 
 #aboutParagraphContainer p{
