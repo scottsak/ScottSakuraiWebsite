@@ -1,9 +1,12 @@
 body {
   background: #112B3C;
-  font-family: 'NTR', sans-serif;
+  /* font-family: 'NTR', sans-serif; */
+  font-family: 'Source Code Pro', monospace;
   color: #EFEFEF;
 
 }
+
+
 
 button{
   cursor: pointer;
@@ -43,7 +46,7 @@ h1 {
 
 
 a:hover{
-  color: #e0eef3;
+  color: #f6a50e;
 }
 
 a {
@@ -79,6 +82,7 @@ html{
 
 .left-social {
   left: 40px;
+  padding-left: 0px;
 }
 
 .right-social {
@@ -202,7 +206,7 @@ nav li {
   margin-top: 20px;
 }
 #welcome-content{
-  width: 870px;
+  /* width: 870px; */
   
 }
 
@@ -249,7 +253,7 @@ nav li {
 }
 
 .messageMeButtons:hover{
-  background-color: #F66B0E;
+  background-color: #f6a50e;
   color: #112B3C;
   border: 2px solid #112B3C;
 }
@@ -322,6 +326,7 @@ nav li {
 #experienceInfo{
   margin: 0px auto;
   width: 100%;
+  min-height: 60vh;
 }
 
 /* Style the buttons inside the tab */
@@ -355,6 +360,7 @@ nav li {
   background-color: #205375;
   width: 100%;
   border-radius: 0px 30px 0px 0px;
+  min-height: 60vh;
 }
 
 .tab-logo{
@@ -432,6 +438,11 @@ nav li {
   color: #EFEFEF;
   justify-content: space-between;
   display: flex;
+  
+}
+
+.ProjectsHead{
+  padding-right: 10px;
 }
 
 .projectsAbout{
@@ -465,7 +476,7 @@ nav li {
 }
   
   .projectBox:hover { 
-  transform: scale(1.1); 
+  transform: scale(1.03); 
   }
 
 .spacing{
@@ -556,6 +567,10 @@ nav li {
 
 @media only screen and (max-width: 1050px) {
 
+  #aboutMe{
+    padding-top: 10em;
+  }
+
     #welcome{
     /* padding-top: 15em; */
     min-height: unset;
@@ -584,6 +599,10 @@ nav li {
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
+
+    #infoButtons{
+      justify-content: center;
+    }
 
   .left-social{
     display: none;
@@ -634,8 +653,6 @@ nav li {
   }
 
   #contactMe{
-    float: left;
-    margin-left: 80px;
     font-size: 30px !important;
   }
 
@@ -756,6 +773,10 @@ nav li {
     width: 100%;
   }
 
+  .fa-projects{
+    font-size: 60px !important;
+  }
+
   .carousel-project-section{
     display: none;
   }
@@ -784,3 +805,6 @@ nav li {
     padding-bottom: 60px;
   }
 }
+
+
+

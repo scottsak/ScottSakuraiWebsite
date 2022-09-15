@@ -19,7 +19,9 @@
   <link rel="icon" href="./images/Scott_no_words.png">
   <script src="https://kit.fontawesome.com/175a0fbab6.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  
+
   <title>Scott Sakurai</title>
   <meta name="description" content="this is the personal website of Scott Sakurai">
 </head>
@@ -41,53 +43,42 @@
       </li>
       <li>
         <button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton"
-        class="messageMeButtons">Resume</button>
+        class="messageMeButtons"><i class="fa fa-file"></i> Resume</button>
       </li>
       
     </ul>
-    <div class="hamburger" onclick="openSideBar(this)">
+    <!-- <div class="hamburger" onclick="openSideBar(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
-    </div>
+    </div> -->
   </nav>
+  <ul class="left-social">
+    <li>
+        <a href="https://www.linkedin.com/in/scottsakurai/"><i class="fa fa-linkedin fa-lg"></i></a>
+    </li>
+    <li>
+        <a href="https://github.com/scottsak"><i class="fa fa-github fa-lg"></i></a>
+    </li>
+    <li>
+      <a href="mailto: scott.t.sakurai@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+    </li>
+    <li>
+        <div class="vertical-line"></div>
+    </li>
+</ul>
 
-  <!-- <div class="side-navbar">
-    <a href="#welcome">/welcome</a>
-    <a href="#aboutMe">/about-me</a>
-    <a href="#experience">/experience</a>
-    <a href="#projects">/projects</a>
-    <div class="icons">
-      <a href="https://www.linkedin.com/in/scottsakurai/"><img class="icon-btn" src="icons/linkedin.svg"
-          alt="linkedin icon" width="30px"></a>
-      <a href="https://github.com/scottsak"><img class="icon-btn" src="icons/github.svg" alt="github icon"
-          width="30px"></a>
-      <a href="mailto:scott.t.sakurai@gmail.com"><img class="icon-btn" src="icons/gmail.svg" alt="email icon"
-          width="30px"></a>
-    </div>
-  </div> -->
+<ul class="right-social">
+    <li>
+        <a class="email" href = "mailto: scott.t.sakurai@gmail.com">scott.t.sakurai@gmail.com</a>
+    </li>
+    <li>
+        <div class="vertical-line"></div>
+    </li>
+</ul>
 
   <div id="page">
-    <ul class="left-social">
-      <li>
-          <a href="https://www.linkedin.com/in/scottsakurai/"><i class="fa fa-linkedin fa-lg"></i></a>
-      </li>
-      <li>
-          <a href="https://github.com/scottsak"><i class="fa fa-github fa-lg"></i></a>
-      </li>
-      <li>
-          <div class="vertical-line"></div>
-      </li>
-  </ul>
 
-  <ul class="right-social">
-      <li>
-          <a class="email" href = "mailto: scott.t.sakurai@gmail.com">scott.t.sakurai@gmail.com</a>
-      </li>
-      <li>
-          <div class="vertical-line"></div>
-      </li>
-  </ul>
 
     <div id="welcome" class="welcomeMessage section">
       <!--<img class="logoTop" src="images/matrix.gif" alt="My Image" width="300px" height="300px">-->
@@ -107,7 +98,7 @@
 
 
         <button onclick="location.href='mailto:scott.t.sakurai@gmail.com'" type="button" id="contactMe"
-          class="messageMeButtons">Contact Me</button>
+          class="messageMeButtons"><i class="fa fa-envelope"></i> Contact Me</button>
 
       </div>
     </div>
@@ -231,10 +222,8 @@
                 New movie trivia game based on movie hints.
                 </p>
                 <div class="projectslogosCarousel">
-                  <a class="sharelogo" href="https://www.reegle.xyz/"><img class="logoExperience"
-                      src="icons/share.svg" alt="share icon" width="20px"></a>
-                  <a href="https://github.com/scottsak/ReegleClient"><img class="logoExperience" src="icons/github.svg"
-                      alt="github icon" width="20px"></a>
+                  <a class="sharelogo" href="https://www.reegle.xyz/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+                  <a href="https://github.com/scottsak/ReegleClient"><i class="fa fa-projects fa-github fa-2x"></i></a>
                 </div>
               </div>
           </div>
@@ -256,10 +245,8 @@
                   A movie trivia game that tests users on the movie's release dates
                 </p>
                 <div class="projectslogosCarousel">
-                  <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><img class="logoExperience"
-                      src="icons/share.svg" alt="share icon" width="20px"></a>
-                  <a href="https://github.com/scottsak/MovieTimeline"><img class="logoExperience" src="icons/github.svg"
-                      alt="github icon" width="20px"></a>
+                  <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+                  <a href="https://github.com/scottsak/MovieTimeline"><i class="fa fa-projects fa-github fa-2x"></i></a>
                 </div>
               </div>
             <!-- </a> -->
@@ -277,8 +264,7 @@
                 </div>
                 <p>A great new way of finding the perfect movie to watch!</p>
                 <div class="projectslogosCarousel">
-                  <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><img class="logoExperience"
-                      src="icons/share.svg" alt="share icon" width="20px"></a>
+                  <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
                 </div>
               </div>
           </div>
@@ -303,10 +289,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Reegle</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://www.reegle.xyz/"><img class="logoExperience"
-                  src="icons/share.svg" alt="share icon" width="20px"></a>
-              <a href="https://github.com/scottsak/ReegleClient"><img class="logoExperience" src="icons/github.svg"
-                  alt="github icon" width="20px"></a>
+              <a class="sharelogo" href="https://www.reegle.xyz/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a href="https://github.com/scottsak/ReegleClient"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
           <div class="projectsAbout">
@@ -328,10 +312,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">ScreenTime Game</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><img class="logoExperience"
-                  src="icons/share.svg" alt="share icon" width="30px"></a>
-              <a href="https://github.com/scottsak/MovieTimeline"><img class="logoExperience" src="icons/github.svg"
-                  alt="github icon" width="30px"></a>
+              <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a href="https://github.com/scottsak/MovieTimeline"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
           <div class="projectsAbout">
@@ -350,10 +332,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Personal Blog</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://scottsblog.herokuapp.com/"><img class="logoExperience"
-                  src="icons/share.svg" alt="share icon"></a>
-              <a href="https://github.com/scottsak/blogSite"><img class="logoExperience" src="icons/github.svg"
-                  alt="github icon" ></a>
+              <a class="sharelogo" href="https://scottsblog.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a href="https://github.com/scottsak/blogSite"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
 
@@ -374,10 +354,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Simon Game</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://scottsak.github.io/Simon-Game/"><img class="logoExperience"
-                  src="icons/share.svg" alt="share icon" ></a>
-              <a href="https://github.com/scottsak/Simon-Game"><img class="logoExperience" src="icons/github.svg"
-                  alt="github icon" ></a>
+              <a class="sharelogo" href="https://scottsak.github.io/Simon-Game/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a href="https://github.com/scottsak/Simon-Game"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
 
@@ -396,8 +374,7 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">MineSweeper</h3>
             <div class="projectslogos">
-              <a href="https://github.com/scottsak/MineSweeper"><img class="logoExperience" src="icons/github.svg"
-                  alt="github icon" width="30px"></a>
+              <a href="https://github.com/scottsak/MineSweeper"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
 
@@ -414,8 +391,7 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Stub</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><img class="logoExperience"
-                  src="icons/share.svg" alt="share icon" width="30px"></a>
+              <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
               <!-- <a href="https://github.com/scottsak/trumpetApp"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a> -->
             </div>
           </div>
@@ -438,10 +414,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Trumpet Simulator</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://scottsak.github.io/trumpetApp/"><img class="logoExperience"
-                  src="icons/share.svg" alt="share icon" width="30px"></a>
-              <a href="https://github.com/scottsak/trumpetApp"><img class="logoExperience" src="icons/github.svg"
-                  alt="github icon" width="30px"></a>
+              <a class="sharelogo" href="https://scottsak.github.io/trumpetApp/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a href="https://github.com/scottsak/trumpetApp"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
 
