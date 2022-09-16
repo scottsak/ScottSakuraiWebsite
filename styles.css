@@ -837,6 +837,7 @@ nav li {
 
   #infoButtons {
     justify-content: center;
+    padding-top: 5%;
   }
 
   .side-bar-nav a {
@@ -894,10 +895,11 @@ nav li {
 
   #contactMe {
     font-size: 30px !important;
+    padding: 30px;
   }
 
   .ProjectsHead {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .project-paragraph {
@@ -906,8 +908,11 @@ nav li {
   }
 
   .projectsAbout {
-    width: 60%;
+    text-align: left;
+    padding-top: 10%;
+    width: 80%;
     margin: auto;
+    height: 60%;
   }
 
   p {
@@ -1028,10 +1033,18 @@ nav li {
 
   .projectBox {
     padding: 10px;
-    margin: 5px;
+    margin: 20px;
+    position: relative;
     /* padding-bottom: 50%; */
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
     min-height: 40vh;
+  }
+
+  .techLogos{
+    padding-bottom: 100px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
   }
 
   .logoExperience {
