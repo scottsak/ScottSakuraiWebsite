@@ -19,8 +19,9 @@
   <link rel="icon" href="./images/Scott_no_words.png">
   <script src="https://kit.fontawesome.com/175a0fbab6.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Source+Code+Pro&display=swap"
+    rel="stylesheet">
+
 
   <title>Scott Sakurai</title>
   <meta name="description" content="this is the personal website of Scott Sakurai">
@@ -42,10 +43,10 @@
         <a href="#projects"><span class="small-text">/</span> projects</a>
       </li>
       <li>
-        <button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton"
-        class="messageMeButtons"><i class="fa fa-file"></i> Resume</button>
+        <button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton" class="messageMeButtons"><i
+            class="fa fa-file"></i> Resume</button>
       </li>
-      
+
     </ul>
     <div class="hamburger" onclick="openSideBar(this)">
       <div class="bar1"></div>
@@ -55,38 +56,37 @@
   </nav>
 
   <div id="side-bar" class="side-bar-nav">
-    <a href="#abouMe" onclick="closeSideBar()">/about-me</a>
+    <a href="#aboutMe" onclick="closeSideBar()">/about-me</a>
     <a href="#experience" onclick="closeSideBar()">/experience</a>
     <a href="#projects" onclick="closeSideBar()"> /projects</a>
-    <a href="#contact" onclick="closeSideBar()">/Contact</a>
+    <a href="#footer-links" onclick="closeSideBar()">/Contact</a>
     <div id="resume-sidebar"><button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton"
-      class="messageMeButtons"><i class="fa fa-file"></i> Resume</button></div>
-    
-</div>
+        class="messageMeButtons"><i class="fa fa-file"></i> Resume</button></div>
+  </div>
 
   <ul class="left-social">
     <li>
-        <a href="https://www.linkedin.com/in/scottsakurai/"><i class="fa fa-linkedin fa-lg"></i></a>
+      <a href="https://www.linkedin.com/in/scottsakurai/"><i class="fa fa-linkedin fa-lg"></i></a>
     </li>
     <li>
-        <a href="https://github.com/scottsak"><i class="fa fa-github fa-lg"></i></a>
+      <a href="https://github.com/scottsak"><i class="fa fa-github fa-lg"></i></a>
     </li>
     <li>
       <a href="mailto: scott.t.sakurai@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
     </li>
     <li>
-        <div class="vertical-line"></div>
+      <div class="vertical-line"></div>
     </li>
-</ul>
+  </ul>
 
-<ul class="right-social">
+  <ul class="right-social">
     <li>
-        <a class="email" href = "mailto: scott.t.sakurai@gmail.com">scott.t.sakurai@gmail.com</a>
+      <a class="email" href="mailto: scott.t.sakurai@gmail.com">scott.t.sakurai@gmail.com</a>
     </li>
     <li>
-        <div class="vertical-line"></div>
+      <div class="vertical-line"></div>
     </li>
-</ul>
+  </ul>
 
   <div id="page">
 
@@ -95,24 +95,24 @@
       <!--<img class="logoTop" src="images/matrix.gif" alt="My Image" width="300px" height="300px">-->
 
       <div id="welcome-content">
-      <div class="typing-container">
-        <span class="sentence">Hi, I'm <span class="emphasis">Scott</span></span>
-        <span class="input-cursor"></span>
+        <div class="typing-container">
+          <span class="sentence">Hi, I'm <span class="emphasis">Scott</span></span>
+          <span class="input-cursor"></span>
+        </div>
+
+        <h2 id=welcomeSentence>Welcome to my personal website</h2>
+        <p id="welcomeParagraph">I am a software engineer based in California.
+          I am interested in both frontend and backend development. I am a hardworker and am eager to develop and master
+          new skills everyday.</p>
+
+        <div id="infoButtons">
+
+
+          <button onclick="location.href='mailto:scott.t.sakurai@gmail.com'" type="button" id="contactMe"
+            class="messageMeButtons"><i class="fa fa-envelope"></i> Contact Me</button>
+
+        </div>
       </div>
-
-      <h2 id=welcomeSentence>Welcome to my personal website</h2>
-      <p id="welcomeParagraph">I am a software engineer based in California.
-        I am interested in both frontend and backend development. I am a hardworker and am eager to develop and master
-        new skills everyday.</p>
-
-      <div id="infoButtons">
-
-
-        <button onclick="location.href='mailto:scott.t.sakurai@gmail.com'" type="button" id="contactMe"
-          class="messageMeButtons"><i class="fa fa-envelope"></i> Contact Me</button>
-
-      </div>
-    </div>
 
     </div>
 
@@ -208,15 +208,15 @@
 
       <div class="carousel-project-section">
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
 
-        <div id='carousel-content' class="carousel-inner">
-          <div class="carousel-item active">
+          <div id='carousel-content' class="carousel-inner">
+            <div class="carousel-item active">
               <img class="d-block w-100" src="./images/Reegle-Site.png" alt="reegle">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Reegle</h5>
@@ -228,7 +228,7 @@
                   <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="10px">
                   <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="10px">
                   <img class="techIcon" src="icons/mysql-icon.svg" alt="react icon" width="10px">
-                  
+
                 </div>
                 New movie trivia game based on movie hints.
                 </p>
@@ -237,32 +237,33 @@
                   <a href="https://github.com/scottsak/ReegleClient"><i class="fa fa-projects fa-github fa-2x"></i></a>
                 </div>
               </div>
-          </div>
+            </div>
 
-          <div class="carousel-item">
-            <!-- <a href="https://secure-basin-13180.herokuapp.com/"> -->
+            <div class="carousel-item">
+              <!-- <a href="https://secure-basin-13180.herokuapp.com/"> -->
               <img class="d-block w-100" src="./images/ScreenTime.png" alt="screentime">
               <div class="carousel-caption d-none d-md-block">
                 <h5>ScreenTime</h5>
 
-                  <div class="techLogos">
-                    <img class="techIcon" src="icons/html.svg" alt="html icon" width="10px">
-                    <img class="techIcon" src="icons/css.svg" alt="css icon" width="10px">
-                    <img class="techIcon" src="icons/js.svg" alt="js icon" width="10px">
-                    <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="10px">
-                    <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="10px">
-                  </div>
-                  <p>
+                <div class="techLogos">
+                  <img class="techIcon" src="icons/html.svg" alt="html icon" width="10px">
+                  <img class="techIcon" src="icons/css.svg" alt="css icon" width="10px">
+                  <img class="techIcon" src="icons/js.svg" alt="js icon" width="10px">
+                  <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="10px">
+                  <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="10px">
+                </div>
+                <p>
                   A movie trivia game that tests users on the movie's release dates
                 </p>
                 <div class="projectslogosCarousel">
-                  <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+                  <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><i
+                      class="fa-projects fa fa-share fa-2x"></i></a>
                   <a href="https://github.com/scottsak/MovieTimeline"><i class="fa fa-projects fa-github fa-2x"></i></a>
                 </div>
               </div>
-            <!-- </a> -->
-          </div>
-          <div class="carousel-item">
+              <!-- </a> -->
+            </div>
+            <div class="carousel-item">
               <img class="d-block w-100" src="./images/Stub.png" alt="stub">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Stub</h5>
@@ -275,22 +276,23 @@
                 </div>
                 <p>A great new way of finding the perfect movie to watch!</p>
                 <div class="projectslogosCarousel">
-                  <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+                  <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><i
+                      class="fa-projects fa fa-share fa-2x"></i></a>
                 </div>
               </div>
+            </div>
           </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
 
+        </div>
       </div>
-    </div>
 
       <div class="project-spacer"></div>
 
@@ -314,7 +316,7 @@
             <img class="techIcon" src="icons/nodejs.svg" alt="nodejs icon" width="30px">
             <img class="techIcon" src="icons/React-icon.svg" alt="react icon" width="30px">
             <img class="techIcon" src="icons/mysql-icon.svg" alt="react icon" width="30px">
-          
+
           </div>
         </div>
 
@@ -323,7 +325,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">ScreenTime Game</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a class="sharelogo" href="https://secure-basin-13180.herokuapp.com/"><i
+                  class="fa-projects fa fa-share fa-2x"></i></a>
               <a href="https://github.com/scottsak/MovieTimeline"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
@@ -343,7 +346,8 @@
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Personal Blog</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://scottsblog.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a class="sharelogo" href="https://scottsblog.herokuapp.com/"><i
+                  class="fa-projects fa fa-share fa-2x"></i></a>
               <a href="https://github.com/scottsak/blogSite"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
@@ -361,17 +365,19 @@
           </a>
         </div>
 
-        <div class="projectBox3 projectBox">
+        <div class="projectBox3 projectBox project-last">
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Simon Game</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://scottsak.github.io/Simon-Game/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a class="sharelogo" href="https://scottsak.github.io/Simon-Game/"><i
+                  class="fa-projects fa fa-share fa-2x"></i></a>
               <a href="https://github.com/scottsak/Simon-Game"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
 
           <div class="projectsAbout">
-            <p class='project-paragraph'>A simulation of the famous electronic memory game. Creating random patterns for the player to memorize.
+            <p class='project-paragraph'>A simulation of the famous electronic memory game. Creating random patterns for
+              the player to memorize.
             </p>
           </div>
           <div class="techLogos">
@@ -381,7 +387,7 @@
           </div>
         </div>
 
-        <div class="projectBox5 projectBox">
+        <div class="projectBox4 projectBox project-last">
           <div class="projectsHeader">
             <h3 class="ProjectsHead">MineSweeper</h3>
             <div class="projectslogos">
@@ -398,12 +404,12 @@
           </a>
         </div>
 
-        <div class="projectbox-slider projectBox5 projectBox">
+        <div class="projectbox-slider projectBox5 projectBox project-last">
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Stub</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><i class="fa-projects fa fa-share fa-2x"></i></a>
-              <!-- <a href="https://github.com/scottsak/trumpetApp"><img class="logoExperience" src="icons/github.svg" alt="github icon" width="30px"></a> -->
+              <a class="sharelogo" href="https://stub-netflix-n-review.herokuapp.com/"><i
+                  class="fa-projects fa fa-share fa-2x"></i></a>
             </div>
           </div>
 
@@ -421,11 +427,12 @@
 
 
 
-        <div class="projectBox4 projectBox">
+        <div class="projectBox6 projectBox project-last">
           <div class="projectsHeader">
             <h3 class="ProjectsHead">Trumpet Simulator</h3>
             <div class="projectslogos">
-              <a class="sharelogo" href="https://scottsak.github.io/trumpetApp/"><i class="fa-projects fa fa-share fa-2x"></i></a>
+              <a class="sharelogo" href="https://scottsak.github.io/trumpetApp/"><i
+                  class="fa-projects fa fa-share fa-2x"></i></a>
               <a href="https://github.com/scottsak/trumpetApp"><i class="fa fa-projects fa-github fa-2x"></i></a>
             </div>
           </div>
@@ -440,15 +447,27 @@
           </div>
           </a>
         </div>
-
-
       </div>
+      <div id="more-div">
+      <button id="more-button" onclick="showMore()"><i class="fa fa-plus fa-more-less"></i></button>
+    </div>
     </div>
   </div>
 
   <div class="footer-padding"></div>
   <div class="footer">
-    <p>Created and Developed by Scott Sakurai</p>
+    <div id="footer-links">
+      <li>
+        <a class='footer-icons' href="https://www.linkedin.com/in/scottsakurai/"><i class="fa fa-linkedin fa-lg"></i></a>
+      </li>
+      <li>
+        <a class='footer-icons' href="https://github.com/scottsak"><i class="fa fa-github fa-lg"></i></a>
+      </li>
+      <li>
+        <a class='footer-icons' href="mailto: scott.t.sakurai@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+      </li>
+    </div>
+    <a class='footer-link' href="https://github.com/scottsak/ScottSakuraiWebsite"><p>Created and Developed by Scott Sakurai</p></a>
   </div>
   <script src="app.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
