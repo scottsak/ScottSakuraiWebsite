@@ -291,6 +291,12 @@ nav li {
   font-size: large;
 }
 
+#aboutParagraph{
+  min-height: 300px;
+}
+
+
+
 #aboutParagraphContainer {
   /* width: 80%; */
   /* padding-left: 350px; */
@@ -308,12 +314,25 @@ nav li {
 
 
 .techKnown {
-  /* text-align: center; */
+  text-align: center;
 }
 
 .techList {
-  display: inline-block;
-  padding: 10px 50px;
+  display: flex;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tech-used{
+  border-radius: 5px;
+    background-color: #205375;
+    padding: 5px 10px;
+    margin: 5px 40px;
+}
+
+.tech-used:hover{
+  transform: scale(1.1);
 }
 
 
@@ -797,6 +816,7 @@ nav li {
   #aboutParagraphContainer {
     /* width: 90%; */
   }
+  
 
   .tabcontent {
     /* width: 90%; */
@@ -970,6 +990,10 @@ nav li {
   #aboutParagraphContainer p {
     font-size: 40px;
     text-align: center;
+  }
+
+  #aboutParagraph{
+    min-height: unset;
   }
 
   .techKnown {

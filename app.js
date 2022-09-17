@@ -35,10 +35,8 @@ const body = document.getElementsByTagName('body')[0];
 const button = document.getElementsByClassName('change')[0];
 const hamburger = document.getElementsByClassName('hamburger')[0];
 // const page = document.getElementById('page');
-console.log(body)
 
 function openSideBar(x) {
-  console.log(x.classList)
   x.classList.toggle('change');
   sideBar.classList.toggle('open-nav');
   body.classList.toggle('no-scroll');
@@ -47,7 +45,6 @@ function openSideBar(x) {
 }
 
 function closeSideBar() {
-  console.log("went through")
   hamburger.classList.remove('change');
   sideBar.classList.remove('open-nav');
   body.classList.remove('no-scroll');
@@ -57,7 +54,6 @@ function closeSideBar() {
 
 window.onclick = function(event) {
   if (event.target == page) {
-    console.log(page);
     closeSideBar();
   }
 }
