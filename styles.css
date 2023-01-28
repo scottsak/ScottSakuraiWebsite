@@ -347,7 +347,7 @@ nav li {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  width: 70%;
+  /* width: 70%; */
 }
 
 #experienceInfo {
