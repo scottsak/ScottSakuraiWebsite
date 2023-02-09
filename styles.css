@@ -1096,10 +1096,18 @@ nav li {
 }
 
   #more-button{
+    background-color: transparent;
+    color: white;
+    border: none;
     cursor: pointer;
     font-size: 60px;
-    color: #112B3C;
     border-radius: 50%;
+  }
+
+  button#more-button:focus {
+    border: none;
+    color: none;
+    outline: green;
   }
 
   .footer{
