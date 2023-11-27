@@ -1,12 +1,9 @@
 body {
-  background: #112B3C;
+  background: #112b3c;
   /* font-family: 'NTR', sans-serif; */
-  font-family: 'Source Code Pro', monospace;
-  color: #EFEFEF;
-
+  font-family: "Source Code Pro", monospace;
+  color: #efefef;
 }
-
-
 
 button {
   cursor: pointer;
@@ -38,12 +35,10 @@ li {
   text-align: center;
 }
 
-
 h1 {
-  color: #EFEFEF;
+  color: #efefef;
   font-size: 60px;
 }
-
 
 a:hover {
   color: #f6a50e;
@@ -51,11 +46,11 @@ a:hover {
 
 a {
   text-decoration: none !important;
-  color: #F66B0E;
+  color: #f66b0e;
 }
 
 .emphasis {
-  color: #F66B0E;
+  color: #f66b0e;
 }
 
 html {
@@ -102,11 +97,10 @@ html {
   transition-duration: 0.3s;
 }
 
-
 /*icon styles*/
 /* ------------------------------------------------------------------- */
 .icons svg path {
-  fill: #FFFFFF !important;
+  fill: #ffffff !important;
 }
 
 .icon-btn:hover {
@@ -123,7 +117,6 @@ html {
   flex-direction: row;
   display: flex;
 }
-
 
 /*side navbar */
 /* ------------------------------------------------------------------- */
@@ -150,7 +143,6 @@ html {
 nav li {
   list-style: none;
 }
-
 
 .nav {
   display: flex;
@@ -204,7 +196,6 @@ nav li {
 
 #welcome-content {
   /* width: 870px; */
-
 }
 
 @keyframes blink {
@@ -231,14 +222,13 @@ nav li {
 
 .input-cursor {
   display: inline-block;
-  animation: blink .6s linear infinite alternate;
+  animation: blink 0.6s linear infinite alternate;
   width: 2px;
   height: 70px;
   margin-top: 15px;
   background-color: white;
   margin-left: 8px;
 }
-
 
 /* .messageMeButtons {
   background-color: transparent;
@@ -253,8 +243,8 @@ nav li {
 .messageMeButtons {
   background-color: transparent;
   border-radius: 4px;
-  color: #F66B0E;
-  border: 2px solid #F66B0E;
+  color: #f66b0e;
+  border: 2px solid #f66b0e;
   /* margin-top: 50px; */
   padding: 10px 10px;
   /* width: 200px; */
@@ -262,8 +252,8 @@ nav li {
 
 .messageMeButtons:hover {
   background-color: #f6a50e;
-  color: #112B3C;
-  border: 2px solid #112B3C;
+  color: #112b3c;
+  border: 2px solid #112b3c;
 }
 
 #welcome {
@@ -279,7 +269,6 @@ nav li {
   justify-content: space-between;
 }
 
-
 /* about me */
 /* ------------------------------------------------------------------- */
 
@@ -291,11 +280,9 @@ nav li {
   font-size: large;
 }
 
-#aboutParagraph{
+#aboutParagraph {
   min-height: 300px;
 }
-
-
 
 #aboutParagraphContainer {
   /* width: 80%; */
@@ -312,7 +299,6 @@ nav li {
   padding-right: 20px;
 }
 
-
 .techKnown {
   text-align: center;
 }
@@ -324,21 +310,20 @@ nav li {
   justify-content: space-evenly;
 }
 
-.tech-used{
+.tech-used {
   border-radius: 5px;
-    background-color: #205375;
-    padding: 5px 10px;
-    margin: 5px 40px;
+  background-color: #205375;
+  padding: 5px 10px;
+  margin: 5px 40px;
 }
 
-.tech-used:hover{
+.tech-used:hover {
   transform: scale(1.1);
 }
 
-
 .myPicture {
   border-radius: 50px;
-  border: 4px solid #F66B0E;
+  border: 4px solid #f66b0e;
 }
 
 /* Experience */
@@ -366,7 +351,7 @@ nav li {
   padding: 14px 25px;
   transition: 0.3s;
   font-size: 17px;
-  background-color: #33334D;
+  background-color: #33334d;
   border-radius: 15px 50px 0px 0px;
   padding-right: 35px;
 }
@@ -396,8 +381,12 @@ nav li {
   height: 120px;
   text-align: center;
   bottom: 0px;
-    position: absolute;
-    right: 10%;
+  position: absolute;
+  right: 10%;
+}
+
+.experienceBullets {
+  list-style: disc !important;
 }
 
 .experienceHead {
@@ -469,10 +458,9 @@ nav li {
 .projectsHeader {
   text-align: left;
   padding: 15px 15px;
-  color: #EFEFEF;
+  color: #efefef;
   justify-content: space-between;
   display: flex;
-
 }
 
 .ProjectsHead {
@@ -484,7 +472,7 @@ nav li {
   padding-bottom: 20px;
   padding-left: 20px;
   /* text-align: center; */
-  color: #EFEFEF;
+  color: #efefef;
   /* line-height: 40px; */
 }
 
@@ -506,7 +494,7 @@ nav li {
   margin: 10px;
   background-color: #205375;
   border-radius: 20px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   /* opacity: 50%; */
 }
 
@@ -545,14 +533,13 @@ nav li {
   width: 40px;
 }
 
-
 /* footer */
 /* ------------------------------------------------------------------- */
 .footer-padding {
   padding-bottom: 30px;
 }
 
-#more-div{
+#more-div {
   display: none;
 }
 
@@ -566,7 +553,6 @@ nav li {
 #footer-links li {
   display: inline;
 }
-
 
 .footer {
   text-align: center;
@@ -583,28 +569,21 @@ nav li {
 .footer p {
   margin-top: 25px;
   font-size: 15px;
-  color: #C5D2E0;
+  color: #c5d2e0;
   padding-bottom: 40px;
 }
-
-
 
 /*media screens for later*/
 /* ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1550px) {
-
   /* #welcome{
     padding-top: 15em;
     min-height: unset;
   } */
 }
 
-
-
-
 @media only screen and (max-width: 1300px) {
-
   .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -622,7 +601,6 @@ nav li {
 }
 
 @media only screen and (max-width: 1050px) {
-
   nav ul {
     display: none;
   }
@@ -640,14 +618,12 @@ nav li {
     display: none;
   }
 
-
   #footer-links {
     display: block;
   }
 
-
   .footer-icons {
-    color: #C5D2E0;
+    color: #c5d2e0;
     padding: 0 20px;
   }
 
@@ -695,7 +671,7 @@ nav li {
     height: 100%;
     width: 0;
     position: fixed;
-    background-color: #0E2433;
+    background-color: #0e2433;
     top: 0;
     right: -55px;
     padding-left: 200px;
@@ -731,7 +707,7 @@ nav li {
   }
 
   .side-bar-nav a {
-    color: #F66B0E;
+    color: #f66b0e;
     font-size: 2rem;
   }
 
@@ -796,9 +772,6 @@ nav li {
     margin: 10px;
   }
 
-
-
-
   #aboutMe {
     padding-top: 10em;
   }
@@ -808,7 +781,6 @@ nav li {
     min-height: unset;
   }
 
-
   .side-navbar {
     display: none;
   }
@@ -816,7 +788,6 @@ nav li {
   #aboutParagraphContainer {
     /* width: 90%; */
   }
-  
 
   .tabcontent {
     /* width: 90%; */
@@ -836,8 +807,7 @@ nav li {
 }
 
 /* iPhone Screen */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   #logo {
     width: 80px;
     height: 80px;
@@ -970,7 +940,6 @@ nav li {
     width: 100%;
   }
 
-
   #aboutImage {
     width: 100%;
     height: 500px;
@@ -992,7 +961,7 @@ nav li {
     text-align: center;
   }
 
-  #aboutParagraph{
+  #aboutParagraph {
     min-height: unset;
   }
 
@@ -1012,6 +981,7 @@ nav li {
     text-align: left;
     width: 100%;
     border-radius: 0px 50px 30px;
+    min-height: 30vh !important;
   }
 
   .tabHeading {
@@ -1064,7 +1034,7 @@ nav li {
     min-height: 40vh;
   }
 
-  .techLogos{
+  .techLogos {
     padding-bottom: 100px;
     position: absolute;
     bottom: 0px;
@@ -1078,24 +1048,25 @@ nav li {
   .techIcon {
     width: 80px;
   }
-#more-div{
-  display: block;
-  padding-top: 40px;
-}
 
-.project-last{
-  display: none;
-}
+  #more-div {
+    display: block;
+    padding-top: 40px;
+  }
 
-.fa-more-less{
-  padding: 20px;
-}
+  .project-last {
+    display: none;
+  }
 
-.show-last{
-  display:block;
-}
+  .fa-more-less {
+    padding: 20px;
+  }
 
-  #more-button{
+  .show-last {
+    display: block;
+  }
+
+  #more-button {
     background-color: transparent;
     color: white;
     border: none;
@@ -1110,11 +1081,11 @@ nav li {
     outline: green;
   }
 
-  .footer{
+  .footer {
     padding-top: 8vh;
   }
 
-  #footer-links{
+  #footer-links {
     padding-bottom: 5vh;
   }
 
