@@ -627,16 +627,6 @@ nav li {
   padding-bottom: 40px;
 }
 
-/*media screens for later*/
-/* ------------------------------------------------------------------- */
-
-@media only screen and (max-width: 1550px) {
-  /* #welcome{
-    padding-top: 15em;
-    min-height: unset;
-  } */
-}
-
 @media only screen and (max-width: 1300px) {
   .grid-container {
     display: grid;
@@ -904,6 +894,7 @@ nav li {
 
   #experienceInfo {
     width: 100%;
+    flex-direction: column;
   }
 
   .section {
@@ -1023,9 +1014,28 @@ nav li {
     font-size: 40px;
   }
 
+  .tab {
+    width: 100%;
+    display: flex;
+  }
+
   /* Style the buttons inside the tab */
   .tab button {
-    font-size: 40px;
+    font-size: 32px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .tab button.active {
+    border-bottom: 2px solid #f66b0e;
+    border-left: none;
+    background-color: rgba(47, 88, 116, 0.2) !important;
+    /* background-color: rgba(246, 107, 14, 0.2); */
+    color: #f66b0e !important;
+  }
+
+  .tab button:hover {
+    background-color: rgba(246, 107, 14, 0.2);
   }
 
   /* Style the tab content */
@@ -1040,7 +1050,6 @@ nav li {
 
   .tabHeading {
     display: inline-block;
-    text-align: center;
     justify-content: center;
     display: inline-block;
     width: 100%;
@@ -1052,8 +1061,18 @@ nav li {
     padding-top: 15px;
   }
 
+  .section-header-divider {
+    margin-top: 45px;
+    margin-left: 15px;
+    height: 2px;
+  }
+
+  .tab-logo-desktop {
+    display: none;
+  }
+
   .experienceDate {
-    text-align: center;
+    text-align: left;
     float: none;
     padding-bottom: 10px;
     padding-top: 0px;
