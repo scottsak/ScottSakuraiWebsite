@@ -7,11 +7,16 @@ function openExperience(evt, experienceName) {
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
+  logos = document.getElementsByClassName("experiences-logos");
+  for (i = 0; i < logos.length; i++) {
+    logos[i].style.display = "none";
+  }
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(experienceName).style.display = "block";
+  document.getElementById(`${experienceName}-logo`).style.display = "block";
   evt.currentTarget.className += " active";
 }
 

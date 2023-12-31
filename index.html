@@ -116,7 +116,10 @@
     </div>
 
     <div id="aboutMe" class="section aboutMe">
+      <div class="section-header-div">
       <h2 class="section-Header">/about-me</h2>
+      <div class="section-header-divider"></div>
+    </div>
       <div id="aboutInfo">
         <div id="aboutImage" class="about">
           <img class="myPicture" src="images/profilepic1.jpg" alt="Picture of Scott" width="300px" height="300px">
@@ -147,84 +150,83 @@
     </div>
 
     <div id="experience" class="section experience">
-      <h2 class="section-Header">/experience</h2>
+      <div class="experiences-header">
+        <div class="section-header-div">
+          <h2 class="section-Header">/experience</h2>
+          <div class="section-header-divider"></div>
+        </div>
+        <div class='tab-logo'>
+          <img id="school-logo" class="experiences-logos" src="images/lb_logo.png" alt="csulb logo" height="80px">
+        </div>
+        <div class='tab-logo'>
+          <img id="west-logo" class="experiences-logos" src="images/22west.png" alt="22west logo" height="60px">
+        </div>
+        <div class='tab-logo'>
+          <img id="anchor-logo" class="experiences-logos" src="images/hornblowerlogo.png" alt="anchor logo" height="80px">
+        </div>
+      </div>
       <div id="experienceInfo">
-
         <div class="tab">
           <div id="tabback"></div>
           <button class="tablinks" onclick="openExperience(event, 'school')">CSULB</button>
-          <button class="tablinks" onclick="openExperience(event, '22west')">22 West Media</button>
+          <button class="tablinks" onclick="openExperience(event, 'west')">22 West Media</button>
           <button class="tablinks" onclick="openExperience(event, 'anchor')" id="defaultOpen">Hornblower</button>
         </div>
-
-        <div id="school" class="tabcontent">
-          <div class="tabHeading">
-            <h3 class="experienceHead"><span class="emphasis">Student</span> @ CSULB
-            </h3>
-            <p class="experienceDate">August 2018-May 2022</p>
+        <div class="tab-content-information">
+          <div id="school" class="tabcontent">
+        <div class="tabHeading">
+              <h3 class="experienceHead"><span class="emphasis">Student</span> @ CSULB</h3>
+              <p class="experienceDate">August 2018 - May 2022</p>
+            </div>
+              <ul  class="experienceContent">
+                <li class="experienceBullets">Graduated with a Bachelors of Science in Computer Science at California State University, Long Beach in Spring of 2022</li>
+                <li class="experienceBullets">Throughout my university years, I actively participated as a member of the Association for Computing Machinery (ACM)</li>
+                <li class="experienceBullets">Courses: Data Structures and Algorithms, Senior Design, and Artificial Intelligence</li>
+              </ul>
+            <div class="spacing"></div>
           </div>
-
-          <p class="experienceContent">I have recently graduated with a Bachelors of Science
-            in Computer Science from California State University, Long Beach. From
-            my time at Long Beach, I have learned many different programming languages such as Java and
-            Python while also learning principles like data structures and algorithms. Courses that have
-            been a highlight for me are the Data Structures and Algorithms, Senior Design, and Artificial 
-            Intelligence courses. I graduated in the Spring of 2022 and am currently looking for a full time 
-            position, a new grad position, or an internship.</p>
-          <div class="spacing"></div>
-          <div class='tab-logo'>
-            <img src="images/lb_logo.png" alt="csulb logo" height="100px">
+    
+          <div id="west" class="tabcontent">
+            <div class="tabHeading">
+              <h3 class="experienceHead"><span class="emphasis">Webmaster</span> @ 22 West Media</h3>
+              <p class="experienceDate">August 2021 - July 2022</p>
+            </div>
+              <ul class="experienceContent">
+                <li class="experienceBullets">Exclusively responsible for upholding the style and ensuring the functionality of the 22 West Media website</li>
+                <li class="experienceBullets">Oversaw the regular updating of all pages with fresh content sourced from videos, magazines, and radio media</li>
+                <li class="experienceBullets">Technologies: HTML, CSS, Javascript, PHP, Joomla</li>
+              </ul>
+            <!-- <div class="spacing"></div>
+            <div class='tab-logo'>
+              <img src="images/22west.png" alt="22west logo" height="100px">
+            </div>
+            <div class="spacing"></div> -->
           </div>
-          <div class="spacing"></div>
+    
+          <div id="anchor" class="tabcontent">
+            <div class="tabHeading">
+              <h3 class="experienceHead"><span class="emphasis">Associate SWE</span> @ Hornblower
+              </h3>
+              <p class="experienceDate">October 2022 - Present</p>
+            </div>
+              <ul class="experienceContent">
+                <li class="experienceBullets">Partnered with a team member to optimize City Experiences' main landing page resulting in a 300% increase in lighthouse performance</li>
+                <li class="experienceBullets">Partnered with a team member to develop a feature enabling cross-client product pairing, enhancing product exposure and optimizing user experience.</li>
+                <li class="experienceBullets">Partnered with a team member to implement Firebase integration, enabling our 1.8 million users to access OTP sign-in as an alternative authentication method</li>
+                <li class="experienceBullets">Technologies: Javascript, React.js, Node.js, DynamoDB, GraphQL, HTML, CSS, Jira</li>
+              </ul>
+          </div>
         </div>
-
-        <div id="22west" class="tabcontent">
-          <div class="tabHeading">
-            <h3 class="experienceHead"><span class="emphasis">Webmaster</span> @ 22 West Media</h3>
-            <p class="experienceDate">August 2021-July 2022</p>
-          </div>
-          <p class="experienceContent">During my time in Long Beach for school I was afforded the opportunity to work as the webmaster at a company called 22 West Media. 
-            As webmaster I was responsible for updating the website with new content using HTML, CSS, and JavaScript. 
-            While working at this position, I had to meet deadlines and learn new technologies on the fly. 
-            Although I was solely responsible for any direct changes to the website, I was in constant contact with teams from other branches of the company to decide what needs to be changed.</p>
-          <div class="spacing"></div>
-          <div class='tab-logo'>
-            <img src="images/22west.png" alt="22west logo" height="100px">
-          </div>
-          <div class="spacing"></div>
-        </div>
-
-        <div id="anchor" class="tabcontent">
-          <div class="tabHeading">
-            <h3 class="experienceHead"><span class="emphasis">Associate SWE</span> @ Hornblower
-            </h3>
-            <p class="experienceDate">October 2022-Present</p>
-          </div>
-
-          <p class="experienceContent">
-            <ul>
-              <li class="experienceBullets">Partnered with a team member to optimize City Experiences' main landing page resulting in a 300% increase in lighthouse performance</li>
-              <li class="experienceBullets">Partnered with a team member to develop a feature enabling cross-client product pairing, enhancing product exposure and optimizing user experience.</li>
-              <li class="experienceBullets">Partnered with a team member to implement Firebase integration, enabling our 1.8 million users to access OTP sign-in as an alternative authentication method</li>
-              <li class="experienceBullets">Technologies: Javascript, React.js, Node.js, DynamoDB, GraphQL, HTML, CSS, Jira</li>
-            </ul>
-            
-          </p>
-          <div class="spacing"></div>
-          <div class='tab-logo'>
-            <img src="images/hornblowerlogo.png" alt="csulb logo" height="100px">
-          </div>
-          <div class="spacing"></div>
-        </div>
-
       </div>
-
+      <!-- <div class="spacing"></div> -->
     </div>
 
 
     <div id="projects" class="section projects">
+      <div class="section-header-div">
       <h2 class="section-Header">/projects</h2>
-
+      <div class="section-header-divider"></div>
+    </div>
       <div class="carousel-project-section">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
