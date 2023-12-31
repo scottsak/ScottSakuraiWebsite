@@ -1,25 +1,41 @@
 body {
-  background: #112b3c;
+  background-color: #112b3c;
   /* font-family: 'NTR', sans-serif; */
   font-family: "Source Code Pro", monospace;
-  color: #efefef;
+  color: #cecece;
 }
 
 button {
   cursor: pointer;
 }
 
+h2 {
+  color: #efefef;
+}
+
 li {
   list-style: none;
 }
 
-.section-Header {
+.section-header-div {
   padding-bottom: 1em;
+  display: flex;
+}
+
+.section-Header {
   /* padding-left: 50px; */
 }
 
+.section-header-divider {
+  background-color: #cecece;
+  height: 1px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
 .section {
-  padding-top: 10em;
+  padding-top: 8em;
   /* padding-left: 100px; */
   margin: auto;
   width: 70%;
@@ -332,11 +348,22 @@ nav li {
 /* Style the tab */
 .tab {
   overflow: hidden;
+  width: 20%;
   /* width: 70%; */
+}
+
+.tablinks {
+  width: 100%;
+}
+
+.experiences-header {
+  display: flex;
+  justify-content: space-between;
 }
 
 #experienceInfo {
   margin: 0px auto;
+  display: flex;
   width: 100%;
   min-height: 60vh;
 }
@@ -348,49 +375,75 @@ nav li {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 25px;
+  height: 50px;
+  /* padding: 14px 25px; */
   transition: 0.3s;
-  font-size: 17px;
-  background-color: #33334d;
-  border-radius: 15px 50px 0px 0px;
-  padding-right: 35px;
+  font-size: 15px;
+  background-color: transparent;
+  text-align: left;
+  /* border-radius: 15px 50px 0px 0px; */
+  /* padding-right: 35px; */
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #666679;
+  background-color: rgba(246, 107, 14, 0.5);
+  color: white;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #205375;
+  /* background-color: #f66b0e; */
+  border-left: 2px solid #f66b0e;
+  color: #f66b0e;
+}
+
+.tab button.active:hover {
+  color: white;
 }
 
 /* Style the tab content */
+.tab-content-information {
+  width: 80%;
+}
+
 .tabcontent {
   display: none;
-  padding: 6px 12px;
-  background-color: #205375;
+  padding: 0px 12px;
+  /* background-color: #205375; */
   position: relative;
   width: 100%;
-  border-radius: 0px 30px 0px 0px;
+  /* border-radius: 0px 30px 0px 0px; */
   min-height: 60vh;
 }
 
 .tab-logo {
   height: 120px;
   text-align: center;
+  display: contents;
+  /* width: 100%; */
+  /* text-align: center;
   bottom: 0px;
   position: absolute;
-  right: 10%;
+  right: 10%; */
+}
+
+.experiences-logos {
+  display: none;
+}
+
+#west-logo {
+  margin-bottom: 20px;
 }
 
 .experienceBullets {
   list-style: disc !important;
+  padding-bottom: 10px;
+  margin-left: 15px;
 }
 
 .experienceHead {
-  padding: 15px 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 .experienceContent {
@@ -399,15 +452,16 @@ nav li {
 }
 
 .tabHeading {
-  justify-content: space-between;
-  display: flex;
+  /* justify-content: space-between;
+  display: flex; */
 }
 
 .experienceDate {
   /* display: flex; */
-  float: right;
-  padding-top: 20px;
-  padding-right: 20px;
+  /* float: right; */
+  /* padding-top: 20px;
+  padding-right: 20px; */
+  padding: 0px 10px;
 }
 
 /* projectsSection */
