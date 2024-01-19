@@ -323,14 +323,14 @@ nav li {
   display: flex;
   padding-left: 0px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .tech-used {
   border-radius: 5px;
   background-color: #205375;
   padding: 5px 10px;
-  margin: 5px 40px;
+  margin: 10px 20px;
 }
 
 .tech-used:hover {
