@@ -2,6 +2,7 @@
   --main-highlight: #f66b0e;
   --main-hover-highlight: #f6a50e;
   --main-background: #0f4162;
+  --secondary-background: #0e3a56;
   --paragraph-text: #cecece;
   --header-text: #efefef;
 }
@@ -155,9 +156,17 @@ html {
   height: 40px;
 }
 
+.nav-bar-logo {
+  font-size: 18px !important;
+}
+
+.nav-bar-btns {
+  font-size: 14px;
+}
+
 nav li {
   list-style: none;
-  margin: auto 20px;
+  margin: auto 10px;
 }
 
 .nav {
@@ -176,6 +185,7 @@ nav li {
 nav ul {
   display: flex;
   margin-bottom: 0;
+  padding-left: 0px;
 }
 
 .shadow {
@@ -191,18 +201,24 @@ nav ul {
   display: none;
 }
 
-/*welcome logo*/
+/*welcome*/
 /* ------------------------------------------------------------------- */
+.mobile-logo {
+  display: none;
+}
+
 #hiMessage {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #welcomeName {
   font-weight: 900;
+  font-size: 70px;
+  color: var(--main-highlight);
 }
 
 #welcomeSentence {
-  font-size: 2rem;
+  color: var(--header-text);
 }
 
 .typing-container {
@@ -591,6 +607,10 @@ nav ul {
 }
 
 @media only screen and (max-width: 1050px) {
+  .mobile-logo {
+      display: block;
+  }
+
   nav ul {
     display: none;
   }
@@ -661,7 +681,7 @@ nav ul {
     height: 100%;
     width: 0;
     position: fixed;
-    background-color: #0e2433;
+    background-color: var(--secondary-background);
     top: 0;
     right: -55px;
     padding-left: 200px;
@@ -788,6 +808,14 @@ nav ul {
 
 /* iPhone Screen */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  #hiMessage {
+   font-size: 32px; 
+  }
+
+  .mobile-logo-text {
+    font-size: 35px !important;
+  }
+
   #logo {
     width: 80px;
     height: 80px;

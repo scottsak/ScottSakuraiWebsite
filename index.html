@@ -38,24 +38,28 @@
 
 <body>
   <nav class="nav shadow">
-    <a href="#welcome">
-      <img id="logo" src="./images/ScottLogoBlue.png"></img>
-    </a>
+    <li class="nav-bar-btns mobile-logo">
+      <a class="nav-bar-btns nav-bar-logo mobile-logo-text" href="#welcome">Scott Sakurai</a>
+    </li>
     <ul>
-      <li>
-        <a href="#aboutMe"><span class="small-text">/</span>about-me</a>
+      <li id="nav-bar-logo" class="nav-bar-btns">
+        <a class="nav-bar-btns nav-bar-logo" href="#welcome">Scott Sakurai</a>
       </li>
       <li>
-        <a href="#experience"><span class="small-text">/</span>experience</a>
+        <a class="nav-bar-btns" href="#aboutMe"><span class="small-text">/</span>about-me</a>
       </li>
       <li>
-        <a href="#projects"><span class="small-text">/</span> projects</a>
+        <a class="nav-bar-btns" href="#experience"><span class="small-text">/</span>experience</a>
       </li>
+      <li>
+        <a class="nav-bar-btns" href="#projects"><span class="small-text">/</span>projects</a>
+      </li>
+    </ul>
+    <ul>
       <li>
         <button onclick="location.href='Scott_Sakurai.pdf'" type="button" id="resumeButton" class="messageMeButtons"><i
             class="fa fa-file"></i> Resume</button>
       </li>
-
     </ul>
     <div class="hamburger" onclick="openSideBar(this)">
       <div class="bar1"></div>
@@ -105,7 +109,7 @@
       <div id="welcome-content">
         <span id="hiMessage">Hi, I'm</span>
         <h1 id="welcomeName">Scott Sakurai</h1>
-        <h3><span id="typed">_</span></h3>
+        <h2 id="welcomeSentence"><span id="typed">_</span></h2>
         <p id="welcomeParagraph">I am a Full-Stack developer based in California working @ Hornblower Group.
           I love building on, improving, and creating new projects for people to visit!</p>
         <div id="infoButtons">
