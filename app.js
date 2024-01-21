@@ -61,6 +61,22 @@ window.onclick = function (event) {
   }
 };
 
+setTimeout(() => {
+  var typed = new Typed('#typed', {
+    strings: [
+      '_',
+      ' I am a Software Engineer',
+      ' I am a Computer Science Grad',
+      ' I like to build things!'
+    ],
+    typeSpeed: 20,
+    backSpeed: 20,
+    loop: true,
+    showCursor: true,
+    smartBackspace: true,
+  });
+}, 1000);
+
 function showMore() {
   const lastProjects = document.getElementsByClassName("project-last");
   for (let i = 0; i < lastProjects.length; i++) {
