@@ -1,7 +1,15 @@
+:root {
+  --main-highlight: #f66b0e;
+  --main-hover-highlight: #f6a50e;
+  --main-background: #0f4162;
+  --paragraph-text: #cecece;
+  --header-text: #efefef;
+}
+
 body {
-  background-color: #0f4162;
   font-family: "Source Code Pro", monospace;
-  color: #cecece;
+  background-color: var(--main-background);
+  color: var(--paragraph-text);
 }
 
 button {
@@ -9,7 +17,7 @@ button {
 }
 
 h2 {
-  color: #efefef;
+  color: var(--header-text);
 }
 
 li {
@@ -22,7 +30,7 @@ li {
 }
 
 .section-header-divider {
-  background-color: #cecece;
+  background-color: var(--paragraph-text);
   height: 1px;
   width: 300px;
   margin-top: 20px;
@@ -44,21 +52,21 @@ li {
 }
 
 h1 {
-  color: #efefef;
+  color: var(--header-text);
   font-size: 60px;
 }
 
 a:hover {
-  color: #f6a50e;
+  color: var(--main-hover-highlight);
 }
 
 a {
   text-decoration: none !important;
-  color: #f66b0e;
+  color: var(--main-highlight);
 }
 
 .emphasis {
-  color: #f66b0e;
+  color: var(--main-highlight);
 }
 
 html {
@@ -241,13 +249,13 @@ nav ul {
 .messageMeButtons {
   background-color: transparent;
   border-radius: 4px;
-  color: #f66b0e;
-  border: 2px solid #f66b0e;
+  color: var(--main-highlight);
+  border: 2px solid var(--main-highlight);
   padding: 10px 10px;
 }
 
 .messageMeButtons:hover {
-  background-color: #f6a50e;
+  background-color: var(--main-hover-highlight);
   color: #112b3c;
   border: 2px solid #112b3c;
 }
@@ -307,7 +315,7 @@ nav ul {
 
 .myPicture {
   border-radius: 50px;
-  border: 4px solid #f66b0e;
+  border: 4px solid var(--main-highlight);
 }
 
 /* Experience */
@@ -357,8 +365,8 @@ nav ul {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  border-left: 2px solid #f66b0e;
-  color: #f66b0e;
+  border-left: 2px solid var(--main-highlight);
+  color: var(--main-highlight);
 }
 
 .tab button.active:hover {
@@ -555,7 +563,7 @@ nav ul {
 }
 
 .footer p:hover {
-  color: #f6a50e;
+  color: var(--main-hover-highlight);
 }
 
 .footer p {
@@ -689,12 +697,12 @@ nav ul {
   }
 
   .side-bar-nav a {
-    color: #f66b0e;
+    color: var(--main-highlight);
     font-size: 2rem;
   }
 
   .side-bar-nav a:hover {
-    color: #f6a50e;
+    color: var(--main-hover-highlight);
   }
 
   .no-scroll {
@@ -954,10 +962,10 @@ nav ul {
   }
 
   .tab button.active {
-    border-bottom: 2px solid #f66b0e;
+    border-bottom: 2px solid var(--main-highlight);
     border-left: none;
     background-color: rgba(47, 88, 116, 0.2) !important;
-    color: #f66b0e !important;
+    color: var(--main-highlight) !important;
   }
 
   .tab button:hover {
