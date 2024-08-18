@@ -159,7 +159,8 @@ html {
 }
 
 .nav-bar-logo {
-  font-size: 18px !important;
+  font-size: 2vh !important;
+  font-weight: bold;
 }
 
 .nav-bar-btns {
@@ -358,7 +359,6 @@ nav ul {
   margin: 0px auto;
   display: flex;
   width: 100%;
-  min-height: 60vh;
 }
 
 /* Style the buttons inside the tab */
@@ -401,7 +401,6 @@ nav ul {
   padding: 0px 12px;
   position: relative;
   width: 100%;
-  min-height: 60vh;
 }
 
 .tab-logo {
@@ -939,7 +938,7 @@ nav ul {
   }
 
   .experienceContent {
-    font-size: 22px;
+    font-size: 35px;
   }
 
   .typing-container {
