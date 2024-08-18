@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   background-color: var(--main-background);
   color: var(--paragraph-text);
 }
@@ -46,6 +46,8 @@ li {
 
 #page {
   padding: 0px 50px;
+  max-width: 1230px;
+  margin: auto;
 }
 
 #maintenance {
@@ -608,7 +610,7 @@ nav ul {
 
 @media only screen and (max-width: 1050px) {
   .mobile-logo {
-      display: block;
+    display: block;
   }
 
   nav ul {
@@ -809,7 +811,7 @@ nav ul {
 /* iPhone Screen */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   #hiMessage {
-   font-size: 32px; 
+    font-size: 32px;
   }
 
   .mobile-logo-text {
