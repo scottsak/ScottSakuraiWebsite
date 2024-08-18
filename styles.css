@@ -492,6 +492,10 @@ nav ul {
   padding-right: 10px;
 }
 
+#soundtracking-header {
+  font-size: 1.2em; /* too big */
+}
+
 .projectsAbout {
   /* padding: 10px 20px; */
   padding-bottom: 20px;
@@ -595,6 +599,10 @@ nav ul {
     display: grid;
     grid-template-columns: 50% 50%;
     /* width: 80%; */
+  }
+
+  #soundtracking-header {
+    font-size: 1.5em;
   }
 
   .projectBox4 {
