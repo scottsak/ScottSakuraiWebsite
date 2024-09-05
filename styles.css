@@ -907,7 +907,7 @@ nav ul {
   }
 
   .ProjectsHead {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 
   .project-paragraph {
